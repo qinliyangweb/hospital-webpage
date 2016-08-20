@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>列表页</title>
+	<meta name=“renderer” content=“webkit”>  <!--html打开强制为极速模式 -->
+	<meta http-equiv=“X-UA-Compatible” content=“IE=edge,chrome=1”> <!--避免IE使用兼容模式-->
+	<script type="text/javascript" src="jquery/jquery-1.7.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<header>
+		<!-- logo -->
+		<div class="lg">
+			<img src="images/logo.png">
+		</div>
+		<!-- 导航 -->
+		<div class="title" >
+			<ul>
+				<li class="lil"><a href="">医院首页</a></li>
+				<li class="lil"><a href="">医院简介</a></li>
+				<li class="lil"><a href="">媒体报道</a></li>
+				<li class="lil"><a href="">医护团队</a></li>
+				<li class="lil"><a href="">临床技术</a></li>
+				<li class="lil"><a href="">病例解析</a></li>
+				<li class="lil"><a href="">治疗设备</a></li>
+				<li class="lil"><a href="">医院环境</a></li>
+				<li ><a href="">来院路线</a></li>
+			</ul>
+		</div>
+		<!-- banner -->
+		<div class="banner">
+			
+		</div>
+		<!-- 10大关注焦点话题 -->
+		<div class="focus">
+			<div class="f1">
+				<img src="images/10da_03.png" >
+				<div class="find">
+					<img src="images/fdj_03.png">
+					<input type="text" class="txt">
+					<span class="sousuo"><a href="">搜索</a></span>
+					<span class="sousuo"><a href="">咨询预约</a></span>
+				</div>
+			</div>
+
+			<!-- 焦点话题第二行 -->
+			<div class="f23">
+				<div class="f2">
+					<span>1</span>
+					<span>早期白癜风能不能治愈？</span>
+					<span>2</span>
+					<span>早期白癜风能不能治愈？</span>
+					<span>3</span>
+					<span>早期白癜风能不能治愈？</span>
+					<span>4</span>
+					<span>早期白癜风能不能治愈？</span>
+					<span>5</span>
+					<span>早期白癜风能不能治愈？</span>	
+				</div>
+				<div class="f3">
+					<span>6</span>
+					<span>早期白癜风能不能治愈？</span>
+					<span>7</span>
+					<span>早期白癜风能不能治愈？</span>
+					<span>8</span>
+					<span>早期白癜风能不能治愈？</span>
+					<span>9</span>
+					<span>早期白癜风能不能治愈？</span>
+					<span>10</span>
+					<span>早期白癜风能不能治愈？</span>
+				</div>
+			</div>
+		</div>
+		<div class="yinxb">
+			<!-- 银屑病百科 -->
+			<div class="yxb">
+				<img src="images/yun.png" alt="">
+				<span class="z1">银屑病百科</span>
+				<span class="z2">/ENCYCLOPEN</span>
+				<div class="y2">
+					<img src="images/hot.png" alt="">
+					<span>治疗</span>
+					<span>病因</span>
+					<span>症状</span>
+				</div>
+				<div class="y3">
+					<span>危害</span>
+					<span>常识</span>
+					<span>护理</span>
+				</div>
+			</div>
+
+			<!-- 银屑病人群 -->
+			<div class="yxb">
+				<img src="images/yun.png" alt="">
+				<span class="z1">银屑病人群</span>
+				<span class="z2">/CROWD</span>
+				<div class="y2">
+					<img src="images/hot.png" alt="">
+					<span>女性</span>
+					<span>男性</span>
+					<span>儿童</span>
+				</div>
+				<div class="y3">
+					<span>青少年</span>
+					<span>中老年</span>
+				</div>
+			</div>
+
+			<!-- 银屑病分型 -->
+			<div class="yxb">
+				<img src="images/yun.png" alt="">
+				<span class="z1">银屑病分型</span>
+				<span class="z2">/SOMATOTYPE</span>
+				<div class="y2">
+					<img src="images/hot.png" alt="">
+					<span>寻常型</span>
+					<span>红皮病型</span>
+				</div>
+				<div class="y3">
+					<span>脓疱型</span>
+					<span>关节病型</span>
+				</div>
+			</div>
+
+			<!-- 银屑病分期 -->
+			<div class="yxb">
+				<img src="images/yun.png" alt="">
+				<span class="z1">银屑病分期</span>
+				<span class="z2">/PERIODIZATION</span>
+				<div class="y2">
+					<img src="images/hot.png" alt="">
+					<span>进行期</span>
+					<span>静止期</span>
+				</div>
+				<div class="y3">
+					<span>消退期</span>
+					<span>其他</span>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<!-- 内容部分 -->
+	<article>
+		<!-- 左边 -->
+		<div class="left">
+			<!-- 左边的上部 -->
+			<div class="leftUp">
+				<img src="images/dz.png">
+				<span>您当前所在的位置：首页 > 医院概况 > 医院新闻</span>
+			</div><!-- 左边的上部结束 -->
+
+			<!-- 左边的中部 -->
+			<div class="leftM">
+				<!-- 左中第一行 -->
+				<div class="leftM1">
+					<!-- 左边的图 -->
+					<img src="images/j23.png">
+
+					<!-- 第一行右边那部分 -->
+					<div class="leftM1a">
+
+						<!-- 第一行右边的第一排 -->
+						<div class="leftM1a1">
+							<img src="images/li.png">
+							<span>医博会备受关注，进一步推动我省妇科微创技术临床普及</span>
+						</div><!-- 第一行右边的第一排结束 -->
+
+						<p>空气污染需要政府下大力气治理，但我们也可以做一些改变，保护肺功能。为此，由国家中医药管理局中国中医药科技开发交流中心名老...<a href="#" class="red">[详情]</a></p>
+
+						<!-- 第一行下面的一小排 -->
+						<div class="leftMa3" 	>
+							<img src="images/wx.png">
+							<span><a href="#">在线咨询</a></span>
+							<img src="images/ly.png">
+							<span><a href="#">给医生留言</a></span>
+							<img src="images/dh.png">
+							<span><a href="#">拨打免费电话咨询</a></span>
+						</div><!-- 第一行下面的一小排结束 -->
+					</div><!-- 第一行右边那部分结束 -->
+				</div><!-- 左中第一行结束 -->
+
+					<!-- 左中第二行 -->
+				<div class="leftM1">
+					<!-- 左边的图 -->
+					<img src="images/j23.png">
+
+					<!-- 第一行右边那部分 -->
+					<div class="leftM1a">
+					
+						<!-- 第一行右边的第一排 -->
+						<div class="leftM1a1">
+							<img src="images/li.png">
+							<span>医博会备受关注，进一步推动我省妇科微创技术临床普及</span>
+						</div><!-- 第一行右边的第一排结束 -->
+
+						<p>空气污染需要政府下大力气治理，但我们也可以做一些改变，保护肺功能。为此，由国家中医药管理局中国中医药科技开发交流中心名老...<a href="#" class="red">[详情]</a></p>
+
+						<!-- 第一行下面的一小排 -->
+						<div class="leftMa3" 	>
+							<img src="images/wx.png">
+							<span><a href="#">在线咨询</a></span>
+							<img src="images/ly.png">
+							<span><a href="#">给医生留言</a></span>
+							<img src="images/dh.png">
+							<span><a href="#">拨打免费电话咨询</a></span>
+						</div><!-- 第一行下面的一小排结束 -->
+					</div><!-- 第一行右边那部分结束 -->
+				</div><!-- 左中第二行结束 -->
+
+					<!-- 左中第三行 -->
+				<div class="leftM1">
+					<!-- 左边的图 -->
+					<img src="images/j23.png">
+
+					<!-- 第一行右边那部分 -->
+					<div class="leftM1a">
+					
+						<!-- 第一行右边的第一排 -->
+						<div class="leftM1a1">
+							<img src="images/li.png">
+							<span>医博会备受关注，进一步推动我省妇科微创技术临床普及</span>
+						</div><!-- 第一行右边的第一排结束 -->
+
+						<p>空气污染需要政府下大力气治理，但我们也可以做一些改变，保护肺功能。为此，由国家中医药管理局中国中医药科技开发交流中心名老...<a href="#" class="red">[详情]</a></p>
+
+						<!-- 第一行下面的一小排 -->
+						<div class="leftMa3" 	>
+							<img src="images/wx.png">
+							<span><a href="#">在线咨询</a></span>
+							<img src="images/ly.png">
+							<span><a href="#">给医生留言</a></span>
+							<img src="images/dh.png">
+							<span><a href="#">拨打免费电话咨询</a></span>
+						</div><!-- 第一行下面的一小排结束 -->
+					</div><!-- 第一行右边那部分结束 -->
+				</div><!-- 左中第三行结束 -->
+
+				<!-- 左中第四行 -->
+				<div class="leftM1">
+					<!-- 左边的图 -->
+					<img src="images/j23.png">
+
+					<!-- 第一行右边那部分 -->
+					<div class="leftM1a">
+					
+						<!-- 第一行右边的第一排 -->
+						<div class="leftM1a1">
+							<img src="images/li.png">
+							<span>医博会备受关注，进一步推动我省妇科微创技术临床普及</span>
+						</div><!-- 第一行右边的第一排结束 -->
+
+						<p>空气污染需要政府下大力气治理，但我们也可以做一些改变，保护肺功能。为此，由国家中医药管理局中国中医药科技开发交流中心名老...<a href="#" class="red">[详情]</a></p>
+
+						<!-- 第一行下面的一小排 -->
+						<div class="leftMa3" 	>
+							<img src="images/wx.png">
+							<span><a href="#">在线咨询</a></span>
+							<img src="images/ly.png">
+							<span><a href="#">给医生留言</a></span>
+							<img src="images/dh.png">
+							<span><a href="#">拨打免费电话咨询</a></span>
+						</div><!-- 第一行下面的一小排结束 -->
+					</div><!-- 第一行右边那部分结束 -->
+				</div><!-- 左中第四行结束 -->
+
+				<!-- 左中第五行 -->
+				<div class="leftM1">
+					<!-- 左边的图 -->
+					<img src="images/j23.png">
+
+					<!-- 第一行右边那部分 -->
+					<div class="leftM1a">
+					
+						<!-- 第一行右边的第一排 -->
+						<div class="leftM1a1">
+							<img src="images/li.png">
+							<span>医博会备受关注，进一步推动我省妇科微创技术临床普及</span>
+						</div><!-- 第一行右边的第一排结束 -->
+
+						<p>空气污染需要政府下大力气治理，但我们也可以做一些改变，保护肺功能。为此，由国家中医药管理局中国中医药科技开发交流中心名老...<a href="#" class="red">[详情]</a></p>
+
+						<!-- 第一行下面的一小排 -->
+						<div class="leftMa3" 	>
+							<img src="images/wx.png">
+							<span><a href="#">在线咨询</a></span>
+							<img src="images/ly.png">
+							<span><a href="#">给医生留言</a></span>
+							<img src="images/dh.png">
+							<span><a href="#">拨打免费电话咨询</a></span>
+						</div><!-- 第一行下面的一小排结束 -->
+					</div><!-- 第一行右边那部分结束 -->
+				</div><!-- 左中第五行结束 -->
+
+				<!-- 左中第六行 -->
+				<div class="leftM1">
+					<!-- 左边的图 -->
+					<img src="images/j23.png">
+
+					<!-- 第一行右边那部分 -->
+					<div class="leftM1a">
+					
+						<!-- 第一行右边的第一排 -->
+						<div class="leftM1a1">
+							<img src="images/li.png">
+							<span>医博会备受关注，进一步推动我省妇科微创技术临床普及</span>
+						</div><!-- 第一行右边的第一排结束 -->
+
+						<p>空气污染需要政府下大力气治理，但我们也可以做一些改变，保护肺功能。为此，由国家中医药管理局中国中医药科技开发交流中心名老...<a href="#" class="red">[详情]</a></p>
+
+						<!-- 第一行下面的一小排 -->
+						<div class="leftMa3" 	>
+							<img src="images/wx.png">
+							<span><a href="#">在线咨询</a></span>
+							<img src="images/ly.png">
+							<span><a href="#">给医生留言</a></span>
+							<img src="images/dh.png">
+							<span><a href="#">拨打免费电话咨询</a></span>
+						</div><!-- 第一行下面的一小排结束 -->
+					</div><!-- 第一行右边那部分结束 -->
+				</div><!-- 左中第六行结束 -->
+
+				<!-- 左中第七行 -->
+				<div class="leftM1">
+					<!-- 左边的图 -->
+					<img src="images/j23.png">
+
+					<!-- 第一行右边那部分 -->
+					<div class="leftM1a">
+					
+						<!-- 第一行右边的第一排 -->
+						<div class="leftM1a1">
+							<img src="images/li.png">
+							<span>医博会备受关注，进一步推动我省妇科微创技术临床普及</span>
+						</div><!-- 第一行右边的第一排结束 -->
+
+						<p>空气污染需要政府下大力气治理，但我们也可以做一些改变，保护肺功能。为此，由国家中医药管理局中国中医药科技开发交流中心名老...<a href="#" class="red">[详情]</a></p>
+
+						<!-- 第一行下面的一小排 -->
+						<div class="leftMa3" 	>
+							<img src="images/wx.png">
+							<span><a href="#">在线咨询</a></span>
+							<img src="images/ly.png">
+							<span><a href="#">给医生留言</a></span>
+							<img src="images/dh.png">
+							<span><a href="#">拨打免费电话咨询</a></span>
+						</div><!-- 第一行下面的一小排结束 -->
+					</div><!-- 第一行右边那部分结束 -->
+				</div><!-- 左中第七行结束 -->
+			</div><!-- 左边的中部结束 -->
+			
+			<!-- 左边的下部 -->
+			<div class="leftD" 	>
+				<a href="#">首页</a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#">7</a>
+				<a href="#">下一页</a>
+				<a href="#">末页</a>
+				<span>共7页</span>
+				<span>139条</span>
+			</div><!-- 左边的下部结束 -->
+		</div><!-- 左边结束 -->
+
+		<!-- 右边 -->
+		<div class="right">
+			<ul>
+				<li class="li1">
+					<img src="images/lir1.png">
+					<p>青岛银屑病医学研究院自建院起就定位与国内权威医疗机构的服务体系相结合，医院从硬设施到环...<a href="#" class="red">[详情]</a></p>
+					<div class="li1c">
+						<div class="li1c1">
+							<img src="images/p.png">
+							<div>
+								<p>免费康复热线</p>
+								<p>028-62066666</p>
+							</div>
+						</div>
+						<div class="li1c1">
+							<img src="images/qq.png">
+							<div>
+								<p>QQ在线咨询</p>
+								<p>1115500950</p>
+							</div>
+						</div>
+						<div class="li1c2">
+							<a href=""><img src="images/lir3.png"></a>
+							<a href=""><img src="images/lir4.png"></a>
+						</div>
+					</div>
+				</li>
+				<!-- 右边第二个Li -->
+				<li class="li2">
+					<div class="li2a">
+						<img src="images/lir6.png">
+						<img src="images/ck.png">
+					</div>
+
+					<div class="li2b li2bshow">
+						<img src="images/lir5.png">
+						<div>
+							<p>戴礼</p>
+							<p>主任医师</p>
+							<p>擅长项目：</p>
+							<p>擅长是请问而且我认为人体大温泉任务人..<a href="#" class="red">[详情]</a>	</p>
+						</div>
+					</div>
+
+					<div class="li2b li2bhide">
+						<img src="images/lir5b.png">
+						<div>
+							<p>罗兰珍 </p>
+							<p>主任医师</p>
+							<p>擅长项目：</p>
+							<p>擅长是请问而且我认为人体大温泉任务人..<a href="#" class="red">[详情]</a>	</p>
+						</div>
+					</div>
+
+					<div class="li2c">
+						<input type="button" value="戴礼">
+						<input type="button" value="罗兰珍">
+					</div>
+				</li>
+				
+				<!-- 右边第三个li -->
+				<li class="li3">
+					<img src="images/lir8.png">
+					<p>案例：治好多年银屑病，患者题词致谢</p>
+				</li>
+				
+				<!-- 右边第四个li -->
+				<li class="li4">
+					<div class="li2a">
+						<img src="images/lir9.png">
+						<img src="images/ck.png">
+					</div>
+					<ul>
+						<li><a href="#">岐黄之子-王绵之:谁让中医药飞向太</a></li>
+						<li><a href="#">岐黄之子-王绵之:谁让中医药飞向太</a></li>
+						<li><a href="#">岐黄之子-王绵之:谁让中医药飞向太</a></li>
+						<li><a href="#">岐黄之子-王绵之:谁让中医药飞向太</a></li>
+						<li><a href="#">岐黄之子-王绵之:谁让中医药飞向太</a></li>
+						<li><a href="#">岐黄之子-王绵之:谁让中医药飞向太</a></li>
+						<li><a href="#">岐黄之子-王绵之:谁让中医药飞向太</a></li>
+						<li><a href="#">岐黄之子-王绵之:谁让中医药飞向太</a></li>
+					</ul>
+				</li>			
+					
+				<!-- 右边第五个li -->
+				<li class="li5">
+					<div class="li2a">
+						<img src="images/lir11.png">
+						<img src="images/ck.png">
+					</div>
+					<div class="li5b">
+						<div>
+							<span class="li5b1"><a href="#">银屑病是怎么引起的</a></span>
+							<div class="li5b1r">
+								<div class="li5b2"><a href="#">银屑病的病因</a></div>
+								<div class="li5b3"><a href="#">银屑病的图片</a></div>
+							</div>
+						</div>
+						<div>
+							<span class="li5b4"><a href="#">全面解析：如何避免银屑病治疗误区</a></span>
+							<span class="li5b5"><a href="#">银屑病饮食护理</a></span>
+							<span class="li5b6"><a href="#">银屑病的危害</a></span>
+						</div>
+					</div>
+				</li>
+
+				<!-- 右边第六个li -->
+				<li class="li6">
+					<div class="li2a">
+						<img src="images/lir10.png">
+						<img src="images/ck.png">
+					</div>
+					<img src="images/lir12.png" class="li6I">
+				</li>
+			</ul>
+			
+		</div><!-- 右边 -->
+	</article>
+
+	<!-- 底部 -->
+	<footer>
+		<div class="foot">
+			<!-- 脚部第一行 -->
+			<div class="ftF">
+				<!-- 脚部第一行第一列 -->
+				<div class="ftF1">
+					<div>
+						<img src="images/ftlg.png" >
+					</div>
+					<div class="ftF1a">
+						<span>成都银屑病研究院附属医院</span>
+						<span>Affiliated Hospital of psoriasis research institute</span>
+					</div>
+					<span></span>
+				</div>
+
+				<!-- 脚部第一行第二大列 -->
+				<div class="ftF2">
+					<div class="ftF2a">
+						<ul>
+							<li><a href="" >关于医院</a></li>
+							<li><a href="">医院简介</a></li>
+							<li><a href="">医院动态</a></li>
+							<li><a href="">医院环境</a></li>
+							<li><a href="">医院荣誉</a></li>
+						</ul>
+					</div>
+
+					<div class="ftF2a">
+						<ul>
+							<li><a href="" >康复中心</a></li>
+							<li><a href="">医院简介</a></li>
+							<li><a href="">医院动态</a></li>
+							<li><a href="">医院环境</a></li>
+							<li><a href="">医院荣誉</a></li>
+						</ul>
+					</div>
+
+					<div class="ftF2a">
+						<ul>
+							<li><a href="" >患者服务</a></li>
+							<li><a href="">医院简介</a></li>
+							<li><a href="">医院动态</a></li>
+							<li><a href="">医院环境</a></li>
+							<li><a href="">医院荣誉</a></li>
+						</ul>
+					</div>
+
+					<div class="ftF2a">
+						<ul>
+							<li><a href="" >就医指南</a></li>
+							<li><a href="">医院简介</a></li>
+							<li><a href="">医院动态</a></li>
+							<li><a href="">医院环境</a></li>
+							<li><a href="">医院荣誉</a></li>
+						</ul>
+					</div>
+				</div>
+			</div><!-- 脚部第一行结束 -->
+
+			<!-- 脚部第二行 -->
+			<div class="ftS">
+				<div>
+					<span>地址：成都市青羊区文翁路90号（成都市图书馆对面）</span>
+				</div>
+				<div>
+					<span>乘车路线：撒的发生的广告撒旦法嗦嘎水电费嘎斯发的噶发嘎嘎发的发生过阿萨法规阿哥啊嘎嘎啊撒</span>
+				</div>
+				<div>
+					<span>咨询QQ：1234567890</span>
+					<span>咨询热线：028-62066666</span>
+				</div>
+			</div><!-- 脚部第二行结束 -->
+		</div>
+	</footer>
+</body>
+</html>

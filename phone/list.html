@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手机版列表页</title>
+	<meta name="applicable-device" content="mobile" />
+	<!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+	<meta content="telephone=no" name="format-detection"/> 
+	<!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- 全屏显示 -->
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<!-- UC强制全屏 -->
+	<meta name="full-screen" content="yes">
+	<!-- QQ强制全屏 -->
+	<meta name="x5-fullscreen" content="true">
+	<!-- 屏蔽百度转码 -->
+	<link rel="stylesheet" href="css/list.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script type="text/javascript" src="jquery/jquery-1.7.1.min.js"></script>
+	<script src="jquery/swiper.min.js"></script>
+	<script type="text/javascript" src="js/list.js"></script>
+	
+</head>
+<body>
+<div class="conall"></div>
+	<!-- 侧边栏 -->
+		<div class="aside">
+			<ul>
+				<li>
+					<div class="aside1">
+						<img src="images/aside1.png" alt="">
+						<span><a href="">专家在线点击问诊></a></span>
+					</div>
+				</li>
+				<li><a href="">康复病例</a></li>
+				<li><a href="">专家团队</a></li>
+				<li><a href="">医院新闻</a></li>
+				<li><a href="">费用咨询</a></li>
+				<li><a href="">技术设备</a></li>
+				<li><a href="">私密咨询</a></li>
+			</ul>
+
+			<div class="aside2">
+				<p>拨通医院官方电话</p>
+				<p>400-118-1990</p>
+				<img src="images/aside3.png" alt="">
+			</div>
+		</div>	<!-- 侧边栏结束 -->
+
+		<div class="con">
+			
+		
+	<!-- 头部 -->
+	<header>
+		<!-- 最上面的部分 -->
+		<div class="top">
+			<ul>
+				<li class="top1"><img src="images/top1.png"></li>
+				<li class="top4"><img src="images/top2.png"></li>
+				<li class="top2">
+					<p>西安京科银屑病医院</p>
+					<p>Xi'an Jingke psoriasis hospital</p>
+				</li>
+				<li class="top3"><img src="images/top3.png"></li>
+			</ul>
+		</div><!-- 最上面的部分结束 -->
+		
+		<!-- 切换的导航 -->
+		<div class="title">
+			<ul class="tt1">
+				<li class="tt1a show">医院首页</li>
+				<li class="tt1a">医院简介</li>
+				<li class="tt1a">来院路线</li>
+				<li class="gdxl">
+					<span >更多</span>
+					<span class="tt2a">V</span>
+				</li>
+			</ul>
+		</div>
+
+		<div class="xiala">
+			下拉的
+		</div>
+
+		<!-- 切换的轮播图 -->
+		<div class="banner">
+			<img src="images/banner1.png">
+		</div>
+
+		<div class="banner none">
+			医院简介
+		</div>
+
+		<div class="banner none">
+			来院路线
+		</div>
+
+		<!-- 京科头条 -->
+		<div class="jktt">
+			<div class="jkttA">
+				<div class="jktt1">
+					<ul>
+						<li>京科</li>
+						<li>头条</li>
+					</ul>
+				</div>
+				<div class="jktt2">
+					<!-- 滚动新闻标题方法一 -->
+					<!-- <div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="">1滚动新闻标题-滚动新闻标题</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="">1滚动新闻标题-滚动新闻标题</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="">1滚动新闻标题-滚动新闻标题</a>
+							</div>
+						</div>
+					</div> -->
+					<!-- 滚动新闻标题方法2 -->
+					<marquee behavior="scroll" direction="up" scrollamount="3" onmouseover=this.stop() onmouseout=this.start() >
+					<ul>
+						<li><a href="">1滚动新闻标题-滚动新闻标题</a></li>
+						<li><a href="">2滚动新闻标题-滚动新闻标题</a></li>
+					</ul>
+					</marquee>
+				</div>
+			</div>
+			<div class="sec1h">
+				<div class="sec1">
+					<p>没有想要的？试试下边这些 ▼</p>
+					<a href=""><img src="images/sec1.png" alt=""></a>
+					<a href=""><img src="images/sec2.png" alt=""></a>
+					<a href=""><img src="images/sec3.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		
+	
+		<div class="clear"></div>
+	</header><!-- /header -->
+	
+
+	<!-- 内容部分 -->
+	<article>
+
+		<!-- 内容部分第一大块 -->
+		<section class="sec">
+
+
+			<div class="sec2">
+				<img src="images/sec4_03.png" alt="">
+			</div>
+
+			<ul class="sec3">
+				<li>
+					<img src="images/list1.png" alt="">
+					<div>
+						<p class="sec3a">西安京科2016康复成果展示会</p>
+						<p class="sec3b">2016年2月27日，由西安京科银
+屑病医院举办的康复...<a href="" class="red">【详情】</a></p>
+						<p class="sec3c">
+							<span><a href="" class="red"><img src="images/list2.png" alt="">一键拨号</a></span>
+							<span><a href="" class="red"><img src="images/list3.png" alt="">详情咨询</a></span>
+						</p>
+					</div>
+				</li>
+
+				<li>
+					<img src="images/list1.png" alt="">
+					<div>
+						<p class="sec3a">西安京科2016康复成果展示会</p>
+						<p class="sec3b">2016年2月27日，由西安京科银
+屑病医院举办的康复...<a href="" class="red">【详情】</a></p>
+						<p class="sec3c">
+							<span><a href="" class="red"><img src="images/list2.png" alt="">一键拨号</a></span>
+							<span><a href="" class="red"><img src="images/list3.png" alt="">详情咨询</a></span>
+						</p>
+					</div>
+				</li>
+
+				<li>
+					<img src="images/list1.png" alt="">
+					<div>
+						<p class="sec3a">西安京科2016康复成果展示会</p>
+						<p class="sec3b">2016年2月27日，由西安京科银
+屑病医院举办的康复...<a href="" class="red">【详情】</a></p>
+						<p class="sec3c">
+							<span><a href="" class="red"><img src="images/list2.png" alt="">一键拨号</a></span>
+							<span><a href="" class="red"><img src="images/list3.png" alt="">详情咨询</a></span>
+						</p>
+					</div>
+				</li>
+			</ul>
+		
+		</section><!-- 内容部分第一大块结束 -->
+		
+		<div class="six">
+			<ul >
+				<li><a href="">问价格</a></li>
+				<li><a href="">看医院</a></li>
+			</ul>
+			<ul >
+				<li><a href="">查专家</a></li>
+				<li><a href="">在线问</a></li>
+			</ul>
+			<ul >
+				<li><a href="">看疗效</a></li>
+				<li><a href="">综合区</a></li>
+			</ul>
+			<img src="images/qw.png" alt="" class="six1">
+			<img src="images/qw.png" alt="" class="six2">
+			<img src="images/qw.png" alt="" class="six3">
+		</div>
+
+		<section class="secA">
+			<div class="secA1">
+				
+			</div>
+			<ul class="sec3">
+				<li>
+					<img src="images/list1.png" alt="">
+					<div>
+						<p class="sec3a">西安京科2016康复成果展示会</p>
+						<p class="sec3b">2016年2月27日，由西安京科银
+屑病医院举办的康复...<a href="" class="red">【详情】</a></p>
+						<p class="sec3c">
+							<span><a href="" class="red"><img src="images/list2.png" alt="">一键拨号</a></span>
+							<span><a href="" class="red"><img src="images/list3.png" alt="">详情咨询</a></span>
+						</p>
+					</div>
+				</li>
+
+				<li>
+					<img src="images/list1.png" alt="">
+					<div>
+						<p class="sec3a">西安京科2016康复成果展示会</p>
+						<p class="sec3b">2016年2月27日，由西安京科银
+屑病医院举办的康复...<a href="" class="red">【详情】</a></p>
+						<p class="sec3c">
+							<span><a href="" class="red"><img src="images/list2.png" alt="">一键拨号</a></span>
+							<span><a href="" class="red"><img src="images/list3.png" alt="">详情咨询</a></span>
+						</p>
+					</div>
+				</li>
+
+				<li>
+					<img src="images/list1.png" alt="">
+					<div>
+						<p class="sec3a">西安京科2016康复成果展示会</p>
+						<p class="sec3b">2016年2月27日，由西安京科银
+屑病医院举办的康复...<a href="" class="red">【详情】</a></p>
+						<p class="sec3c">
+							<span><a href="" class="red"><img src="images/list2.png" alt="">一键拨号</a></span>
+							<span><a href="" class="red"><img src="images/list3.png" alt="">详情咨询</a></span>
+						</p>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="sec3 none">
+				第二页
+			</ul>
+			<ul class="sec3 none">
+				第3页
+			</ul>
+			<ul class="sec3 none">
+				第4页
+			</ul>
+			
+			<div class="secAa">
+				<ul class="secA2">
+					<li class="goback">&lt上一页</li>
+					<li class="secAt">1</li>
+					<li class="secAt">2</li>
+					<li class="secAt">3</li>
+					<li class="secAt">4</li>
+					<li class="next">下一页&gt</li>
+				</ul>
+			</div>
+
+
+			<ul class="sec5">
+				<li>
+					<a href="">
+						<span>猜你喜欢: </span>
+						<span>文章标题文章标题</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>热门文章: </span>
+						<span>文章标题文章标题</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<!-- 内容部分第2大块 -->
+		<section class="sect">
+			<ul class="sect1">
+				<li class="on">关于医院</li>
+				<li>热点关注</li>
+				<li>康复故事</li>
+				<li>权威疗法</li>
+			</ul>
+
+			<ul class="sect2">
+				<li class="sect2a">
+					<a href="">
+						<span>1</span>
+						<span>冬季患者牛皮癣能治好吗</span>
+						<span>
+							<img src="images/zan.png" alt="">
+						</span>
+						<span>点击咨询>></span>
+					</a>
+				</li>
+				<li class="sect2a">
+					<a href="">
+						<span>2</span>
+						<span>冬季患者牛皮癣能治好吗</span>
+						<span>
+							<img src="images/zan.png" alt="">
+						</span>
+						<span>点击咨询>></span>
+					</a>
+				</li>
+				<li class="sect2a">
+					<a href="">
+						<span>3</span>
+						<span>冬季患者牛皮癣能治好吗</span>
+						<span>
+							<img src="images/zan.png" alt="">
+						</span>
+						<span>点击咨询>></span>
+					</a>
+				</li>
+					<li class="sect2a">
+					<a href="">
+						<span id="huise">4</span>
+						<span>冬季患者牛皮癣能治好吗</span>
+						<span>
+							<img src="images/zan.png" alt="">
+						</span>
+						<span>点击咨询>></span>
+					</a>
+				</li>
+					<li class="sect2a">
+					<a href="">
+						<span id="huise">5</span>
+						<span>冬季患者牛皮癣能治好吗</span>
+						<span>
+							<img src="images/zan.png" alt="">
+						</span>
+						<span>点击咨询>></span>
+					</a>
+				</li>
+			</ul>
+			
+			<ul class="sect2 none">
+				热点关注热点关注热点关注
+			</ul>
+				<ul class="sect2 none">
+				康复故事康复故事
+			</ul>
+				<ul class="sect2 none">
+				权威疗法权威疗法
+			</ul>
+			<div class="secti">
+				<span><a href="">在线QQ咨询</a></span>
+				<span><a href="">点击一键通话</a></span></a>
+			</div>
+
+		</section><!-- 内容部分第2大块结束 -->
+	</article>
+	<div class="clear"></div>
+
+	<!-- 脚部 -->
+	<footer>
+		<ul class="f1">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">病例</a></li>
+			<li><a href="#">问答</a></li>
+			<li><a href="#">百科</a></li>
+		</ul>
+
+		<div class="f2">
+			<ul class="f2a">
+				<li>地址：莲湖区丰登北路中段72号</li>
+				<li>QQ：1966669318</li>
+				<li>咨询电话：029-81329999  </li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- 返回按钮 -->
+	<div class="gotop">
+		<img src="images/fh.png" alt="">
+		<p>返回顶部</p>
+	</div>
+	<!-- </div> -->
+
+	
+
+</body>
+</html>

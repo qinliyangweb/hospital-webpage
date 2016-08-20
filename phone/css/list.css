@@ -1,0 +1,901 @@
+@charset "utf-8";
+/* 通用样式初始化 */
+*{margin:0;padding:0;border:none;list-style:none;outline:none;}
+body{font-family:"微软雅黑";background:#fff;margin:0 auto;max-width:640px;font-size:0.28rem;box-sizing:border-box;}
+div, form, ul, dd, dl, ol, dt, li, p 
+{ list-style: none; padding: 0; margin: 0; }
+h1, h2, h3, h4, h5, h6 
+{ font-size: 100%; margin: 0; padding: 0;  }
+table 
+{ border-collapse: separate; border-spacing: 0; }
+table, td, th 
+{ vertical-align: middle; }
+textarea, input, button, select, keygen, legend 
+{ outline: 0; margin: 0; padding: 0;}
+img
+{border:none;vertical-align:center}
+input[type="button"],input[type="submit"],input[type="reset"]{-webkit-appearance:none;outline:none;}
+a 
+{ text-decoration: none;  cursor: pointer; }
+a:hover 
+{ text-decoration: none; }
+.clear 
+{ width: 0; height: 0; margin: 0; padding: 0; line-height: 0px; font-size: 0px; clear: both;}
+.none 
+{ display: none; }
+.left 
+{ float: left; }
+.right 
+{ float: right; }
+.red
+{ color: #a72121;}
+
+
+/* 头部 */
+body
+{
+	background-color: #e8e8e8;
+}
+
+header
+{
+	width: 6.4rem;
+	height: 7.8rem;
+}
+
+
+/* 最上面的部分 */
+.top
+{
+	width: 6.4rem;
+	height: 0.8rem;
+	background:url(../images/topbg.png) no-repeat;
+}
+
+.top ul li
+{	
+	float: left;
+	display: inline-block;
+	height: 0.8rem;
+}
+
+li.top2
+{
+	width: 3.1rem;
+	height: 0.8rem;
+}
+
+.top1
+{
+	height:0.47rem;
+	width: 0.47rem;
+	margin-right: 0.5rem;
+	margin-left: 0.3rem;
+}
+
+.top1 img
+{
+	height:0.47rem;
+	margin-top: 0.15rem;
+	width: 0.47rem;
+}
+
+
+.top4 img
+{
+	width: 0.6rem;
+	margin-top: 0.15rem;
+	height: 0.5rem;
+}
+.top2
+{
+	width: 3rem;
+	height: 0.6rem;
+}
+
+.top2 p
+{
+	width: 2.95rem;
+	height: 0.3rem;
+	display: inline-block;
+	margin-top: 10px;
+}
+.top2 p:last-child
+{	
+
+	text-transform: uppercase;
+	font-size: 0.15rem;
+	color:white;
+	text-align: center;
+	width: 2.95rem;
+	height: 0.3rem;
+}
+
+.top2 p:first-child
+{
+	font-size: 0.3rem;
+	color:white;
+	text-align: center;
+}
+
+.top3
+{
+	width: 0.55rem;
+	height: 0.55rem;
+	margin-left: 0.4rem;
+}
+
+.top3 img
+{
+	width: 0.55rem;
+	height: 0.55rem;
+	margin-top: 0.15rem;
+	
+}
+
+
+/* 切换的导航条 */
+.title
+{
+	background-color: white;
+	width: 6.4rem;
+	height: 0.71rem;
+}
+
+.tt1
+{
+	width:6.4rem;
+	height: 0.7rem;
+}
+.tt1 li
+{
+	display: inline-block;
+	width: 1.4rem;
+	height: 0.7rem;
+	font-size: 0.25rem;
+	line-height: 0.7rem;
+	text-align: center;
+}
+
+.tt1 li:first-child
+{
+	margin-left: 0.3rem;
+}
+
+.tt2a
+{
+	color:blue;
+}
+
+.show
+{
+	border-bottom: 1px solid blue;
+}
+
+.xiala
+{
+	width: 1.4rem;
+	height: 1.4rem;
+	background-color: #f0a1f5;
+	position:absolute;
+	left:4.75rem;
+
+}
+
+
+/* 边栏 */
+.con{
+	position:relative;
+	top:0;
+	left:0;
+}
+.conall{
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	overflow: hidden;
+	z-index: 998;
+	display: none;
+}
+.aside
+{
+	width: 3.75rem;
+	height: 12.07rem;
+	background: url(../images/asbg.png);
+	position:fixed;
+	top:0;
+	left:-3.75rem;
+	z-index: 999;
+	overflow: hidden;
+}
+
+
+
+.aside ul
+{
+	height: 8.1rem;
+	width: 3.75rem;
+}
+.aside ul li
+{
+	border-bottom: 1px solid white;
+	color:white;
+	font-size: 0.22rem;
+}
+
+.aside ul li:first-child
+{
+	height: 2.23rem;
+	width: 100%;
+	/* line-height: 2.23rem; */
+}
+
+.aside1
+{
+	height: 1.24rem;
+	width: 2.55rem;
+	position: relative;
+	left:0.5rem;
+	top:0.5rem;
+}
+.aside1 img
+{
+	height: 1.24rem;
+	width:1.24rem;
+}
+.aside1 span
+{	
+	display: inline-block;
+	height: 0.34rem;
+	width:1.15rem;
+	font-size: 0.24rem;
+    float: right;
+    line-height: 0.6rem;
+
+}
+.aside1 span a
+{
+	color: #fff;
+}
+.aside1 div
+{
+	height: 0.5em;
+	width:1.24rem;
+}
+
+
+.aside ul li:not(:first-child)
+{
+	height: 1.05rem;
+	width: 100%;
+	line-height: 1.05rem;
+	text-align: center;
+	font-size: 0.3rem;
+}
+.aside ul li:not(:first-child) a
+{
+	color:white;
+}
+
+.aside2
+{
+	width: 2.2rem;
+	height: 0.8rem;
+	font-size:0.25rem;
+	position: relative;
+	top:2.1rem;
+	left: 0.3rem;
+}
+.aside2 p
+{
+	color: white;
+	margin-top: 0.2rem;
+}
+
+.aside2 img
+{
+	position: relative;
+	top:-0.5rem;
+	left: 2.2rem;
+}
+
+
+/* 切换的轮播图 */
+
+.banner
+{
+	width: 100%;
+	background-color: white;
+	height: 3.2rem;
+	margin-top: 0.15rem;
+}
+
+.banner img
+{
+	width: 6.4rem;
+	height: 3.2rem;
+}
+
+.none:
+{
+	display: none;
+}
+
+/*京科头条*/
+.jktt
+{
+	height: 1.2rem;
+	width: 6.4rem;
+	color: #367fc1;
+	background-color: white;
+	margin-top: 15px;
+}
+
+.jkttA
+{	
+	width: 5.8rem;
+	border-bottom:0.02rem solid #999;
+	
+}
+
+.jktt div
+{
+	display: inline-block;
+	/* margin-left: 0.1rem; */
+	float: left;
+	/* margin-top: 0.1rem; */
+}
+
+.jktt1
+{
+	width: 0.99rem;
+	height: 0.82rem;
+	border-right:0.02rem solid #999;
+	margin-right: 0.1rem;
+	margin-left: 0.1rem;
+
+}
+
+.jktt1 ul li 
+{
+	height: 0.4rem;
+	width: 0.99rem;
+	line-height: 0.4rem;
+	font-size: 0.28rem;
+	text-align: center;
+}
+
+.jktt2
+{
+	width: 3.34rem;
+	height: 0.8rem;
+}
+
+.marquee
+{
+	height: 0.6rem;
+}
+.jktt2 ul li 
+{
+	height: 0.4rem;
+	width: 3.34rem;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	list-style-type: disc;
+	color:red;
+}
+
+.jktt2 ul li a
+{
+	color:#111;
+}
+
+.sec1h
+{
+	width: 6.4rem;
+	background-color: white;
+	height:1.7rem;
+}
+
+.sec1
+{
+	width: 5.8rem;
+	height:1.65rem;
+	/* margin-left: 0.3rem; */
+}
+
+.sec1 p
+{
+	color:#367fc1;
+	text-align: center;
+	margin-bottom: 0.2rem;
+	position: relative;
+	top:0.1rem;
+}
+
+.sec1 img
+{
+	/* margin-top: 0.2rem; */
+	margin-left: 0.38rem;
+	width: 1.5rem;
+	height: 1rem;
+}
+
+/*六个*/
+.six
+{
+	width: 6.4rem;
+	height: 1.75rem;
+	background-color: white;
+	margin-top: 0.3rem;
+}
+
+.six ul{
+	height: 1.2rem;
+	width: 1.7rem;
+	display: inline-block;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+}
+
+.six ul li
+{
+	height: 0.52rem;
+	width: 1.7rem;
+	line-height: 0.52rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+	background-color: #e8e8e8;
+}
+.six ul li a
+{
+	color:#111;
+}
+
+.six1
+{
+	position: relative;
+	top:-1.3rem;
+	left:1.4rem;
+	width: 0.75rem;
+	height: 0.5rem;
+}
+
+.six2
+{
+	position: relative;
+	top:-1.35rem;
+	left:2.65rem;
+	width: 0.75rem;
+	height: 0.5rem;
+}
+.six3
+{
+	position: relative;
+	top:-0.5rem;
+	left:-0.25rem;
+	width: 0.75rem;
+	height: 0.5rem;
+}
+
+/*------------------------------------*/
+/*article*/
+article
+{
+	width: 6.4rem;
+	height: auto;
+}
+/*内容部分第一大块*/
+.sec
+{
+	width: 6.4rem;
+	height: 6.8rem;
+	background-color: white;
+	margin-top: 0.3rem;
+}
+
+.sec2
+{
+	width: 5.8rem;
+	margin-left: 0.3rem;
+	height: 0.65rem;
+	margin-top: 0.1rem;
+	border-bottom: 1px solid lightgray;
+}
+
+.sec3
+{
+	height: 5.9rem;
+	width: 5.8rem;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+
+}
+
+.sec3 li
+{
+	border-bottom: 0.02rem solid #999;
+	margin-top: 0.2rem;
+}
+
+.sec3>li>img
+{
+	width: 2rem;
+	height: 1.56rem;
+	margin-bottom: 0.2rem;
+}
+.sec3>li>div
+{
+	width: 3.55rem;
+	height: 1.6rem;
+	float:right;
+	font-size: 0.24rem;
+}
+.sec3a
+{
+	color:#367fc1;
+	margin-bottom: 0.1rem;
+
+
+}
+
+.sec3b
+{
+	height: 0.75rem;
+	width: 100%;
+	line-height: 0.4rem;
+	margin-bottom: 0.1rem;
+}
+.sec3c
+{
+	height: 0.75rem;
+	line-height: 0.5rem;
+	width: 3.55rem;
+}
+.sec3c span
+{
+	width: 1.7rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.sec3c span img
+{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: relative;
+	top:0.08rem;
+}
+
+.sec3c span:first-child
+{	
+	width: 1.7rem;
+	display: inline-block;
+	height: 0.4rem;
+	border-right: 0.02rem solid #999;
+	margin-right: 0.3rem;
+}
+
+.sec5
+{
+	width: 5.8rem;
+	height: 1.2rem;
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+}
+.sec5 li
+{
+	width: 100%;
+	height: 0.4rem;
+	margin-bottom: 0.15rem;
+	font-size: 0.24rem;
+}
+
+.sec5 li a span:first-child
+{
+	color: #367fc1;
+}
+
+.sec5 li a span:last-child
+{
+	color: #111;
+}
+
+
+.secA
+{
+	width: 6.4rem;
+	height: 8.2rem;
+	margin-top: 0.3rem;
+	background-color: #fff;
+}
+
+.secA1
+{
+	height: 0.01rem;
+}
+
+.secA2
+{
+	width: 4rem;
+	height: 0.3rem;
+	margin: 0 1.2rem;
+}
+
+.secAa
+{	
+	margin-left: 0.3rem;
+	width: 5.8rem;
+	height: 0.5rem;
+	border-bottom: 0.02rem solid #999;
+	margin-top: 0.2rem;
+
+}
+.secA2 li
+{
+	display: inline-block;
+	text-align: center;
+	color: #367fc1;
+}
+
+
+
+/*内容部分第2大块*/
+.sect
+{
+	width: 6.4rem;
+	height: 7rem;
+	margin-top: 0.3rem;
+	background-color: #fff;
+}
+
+.sect1
+{
+	width: 6.4rem;
+	height: 0.6rem;
+}
+.sect1 li
+{
+	display: inline-block;
+	border:0.01rem solid gray;
+	border-radius: 36%;
+	width:1.42rem ;
+	height: 0.58rem;
+	margin-top: 0.3rem;
+	text-align: center;
+	font-size: 0.25rem;
+	line-height: 0.58rem;
+	margin-left: 0.08rem;
+}
+
+.on
+{
+	background-color: #367fc1;
+	color:white;
+}
+
+.sect2
+{
+	width: 5.8rem;
+	height: 4.6rem;
+	margin-top: 0.55rem;
+	margin-left: 0.3rem;
+
+}
+
+.sect2 li{
+	/*display: inline-block;*/
+	border-bottom: 0.01rem solid #999;
+	height: 0.79rem;
+	margin-bottom: 0.2rem;
+
+}
+.sect2 li span
+{
+	display: inline-block;
+
+}
+.sect2 li a span:first-child
+{
+	width: 0.45rem;
+	height: 0.45rem;
+	border-radius: 20%;
+	background-color: #a72121;
+	color: #fff;
+	text-align: center;
+	line-height: 0.45rem;
+
+}
+
+.sect2 li a span:nth-child(2)
+{
+	color:#111;
+	line-height: 0.79rem;
+}
+.sect2 li a span:nth-child(3)
+{
+	width: 0.45rem;
+	height: 0.45rem;
+}
+
+.sect2 li a span:last-child
+{
+	color:#367fc1;
+	line-height: 0.79rem;
+
+	/*margin-left: 0.17rem;*/
+	float:right;
+}
+
+#huise
+{
+	background-color: #b5b5b5;
+}
+
+
+.secti
+{
+	width: 5.8rem;
+	height: 1.1rem;
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+}
+.secti span
+{	
+	display: inline-block;
+	width: 2.1rem;
+	height:0.52rem;
+	background-color: #758497;
+	border-radius: 32%;
+	line-height: 0.52rem;
+	text-align: center;
+	margin-left:0.35rem ;
+}
+
+.secti span a
+{
+	color: #fff;
+}
+
+/* 脚部 */
+footer
+{
+	width: 6.4rem;
+	height: 2.6rem;
+}
+
+.f1
+{
+	width: 6.4rem;
+	height: 0.58rem;
+	margin: 0.18rem 0;
+	background: url(../images/db1.png);
+}
+
+.f1 li
+{
+	width: 0.8rem;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	font-size: 0.25rem;
+	margin-left: 0.62rem;
+	display: inline-block;
+}
+
+.f1 li a
+{
+		color:white;
+}
+
+.f2
+{
+	width: 6.4rem;
+	height: 1.85rem;
+	background: url(../images/db2.png);
+}
+
+.f2a
+{
+	width: 4rem;
+	height: 1.2rem;
+	margin-left: 0.3rem;
+	
+	position: relative;
+	top: 0.3rem;
+
+}
+.f2a li
+{
+	width: 4rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	color:white;
+	font-size: 0.2rem;
+}
+
+/* 返回按钮 */
+.gotop
+{
+	width: 1.2rem;
+	height: 1.2rem;
+	position: fixed;
+	bottom: 0.1rem;
+	right: 0.2rem;
+	background-color: #a5aeb5;
+	opacity: 0.5;
+
+}
+
+.gotop img
+{
+	width: 1.2rem;
+	height: 0.6rem;
+}
+.gotop>p
+{
+	width: 1.2rem;
+	height: 0.3rem;
+	margin-top: 0.2rem;
+	color:white;
+
+}
+
+
+.liuyan
+{
+	width: 6.4rem;
+	height: 5.7rem;
+}
+
+.liuyan1
+{
+	width: 5.8rem;
+	height: 2.6rem;
+	margin-left: 0.3rem;
+}
+
+.liuyan1 li
+{
+	width: 100%;
+	height: 0.6rem;
+	margin-top: 0.15rem;
+}
+
+.liuyan1>li>span:first-child
+{
+	width: 1.4rem;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	display: inline-block;
+
+}
+
+.liuyan1>li>span:last-child
+{
+	width: 3.8rem;
+	height: 0.6rem;
+	background-color: white;
+	display: inline-block;
+
+}
+
+// 滚动新闻标题
+ .swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    }
+
+
+

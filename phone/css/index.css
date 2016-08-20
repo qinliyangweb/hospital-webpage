@@ -1,0 +1,908 @@
+@charset "utf-8";
+/* 通用样式初始化 */
+*{margin:0;padding:0;border:none;list-style:none;outline:none;}
+body{font-family:"微软雅黑";background:#fff;margin:0 auto;max-width:640px;font-size:0.28rem;box-sizing:border-box;}
+div, form, ul, dd, dl, ol, dt, li, p 
+{ list-style: none; padding: 0; margin: 0; }
+h1, h2, h3, h4, h5, h6 
+{ font-size: 100%; margin: 0; padding: 0;  }
+table 
+{ border-collapse: separate; border-spacing: 0; }
+table, td, th 
+{ vertical-align: middle; }
+textarea, input, button, select, keygen, legend 
+{ outline: 0; margin: 0; padding: 0;}
+img
+{border:none;vertical-align:center}
+input[type="button"],input[type="submit"],input[type="reset"]{-webkit-appearance:none;outline:none;}
+a 
+{ text-decoration: none;  cursor: pointer; }
+a:hover 
+{ text-decoration: none; }
+.clear 
+{ width: 0; height: 0; margin: 0; padding: 0; line-height: 0px; font-size: 0px; clear: both;}
+.none 
+{ display: none; }
+.left 
+{ float: left; }
+.right 
+{ float: right; }
+.red
+{ color: #a72121;}
+
+
+/* 头部 */
+body
+{
+	background-color: #e8e8e8;
+}
+
+header
+{
+	width: 6.4rem;
+	height: 6rem;
+}
+
+
+/* 最上面的部分 */
+.top
+{
+	width: 6.4rem;
+	height: 0.8rem;
+	background:url(../images/topbg.png) no-repeat;
+	/* background-size: 6.4rem 0.8rem; */
+}
+/* .top ul
+{
+	width: 6.4rem;
+	height: 0.8rem;
+	display: inline-block;
+} */
+.top ul li
+{
+	float: left;
+	display: inline-block;
+	height: 0.8rem;
+}
+
+.top1
+{
+	height:0.47rem;
+	width: 0.47rem;
+	margin-right: 0.5rem;
+	margin-left: 0.3rem;
+}
+
+.top1 img
+{
+	height:0.47rem;
+	width: 0.47rem;
+	margin-top: 0.15rem;
+}
+
+
+.top4 img
+{
+	width: 0.6rem;
+	height: 0.5rem;
+	margin-top: 0.15rem;
+}
+.top2
+{
+	width: 3rem;
+	height: 0.6rem;
+}
+
+.top2 p
+{
+	width: 2.95rem;
+	height: 0.3rem;
+	display: inline-block;
+	margin-top: 0.1rem;
+}
+.top2 p:last-child
+{	
+	text-transform: uppercase;
+	font-size: 0.15rem;
+	color:white;
+	text-align: center;
+}
+
+.top2 p:first-child
+{
+	font-size: 0.3rem;
+	color:white;
+	text-align: center;
+}
+
+.top3
+{
+	width: 0.55rem;
+	height: 0.55rem;
+	margin-left: 0.4rem;
+}
+
+.top3 img
+{
+	width: 0.55rem;
+	height: 0.55rem;
+	margin-top: 0.15rem;
+}
+
+
+/* 切换的导航条 */
+.title
+{
+	background-color: white;
+	width: 6.4rem;
+	height: 0.71rem;
+}
+
+.tt1
+{
+	width:6.4rem;
+	height: 0.7rem;
+}
+.tt1 li
+{
+	display: inline-block;
+	width: 1.4rem;
+	height: 0.7rem;
+	font-size: 0.25rem;
+	line-height: 0.7rem;
+	text-align: center;
+}
+
+.tt1 li:first-child
+{
+	margin-left: 0.3rem;
+}
+
+.tt2a
+{
+	color:blue;
+}
+
+.show
+{
+	border-bottom: 1px solid blue;
+}
+
+.xiala
+{
+	width: 1.4rem;
+	height: 1.4rem;
+	background-color: #f0a1f5;
+	position:absolute;
+	left:4.75rem;
+
+}
+
+
+/* 边栏 */
+.con{
+	position:relative;
+	top:0;
+	left:0;
+}
+.conall{
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	overflow: hidden;
+	z-index: 998;
+	display: none;
+}
+.aside
+{
+	width: 3.75rem;
+	height: 12.07rem;
+	background: url(../images/asbg.png);
+	position:fixed;
+	top:0;
+	left:-3.75rem;
+	z-index: 999;
+	overflow: hidden;
+}
+
+.aside ul
+{
+	height: 8.1rem;
+	width: 3.75rem;
+}
+.aside ul li
+{
+	border-bottom: 1px solid white;
+	color:white;
+	font-size: 0.22rem;
+}
+
+.aside ul li:first-child
+{
+	height: 2.23rem;
+	width: 100%;
+	/* line-height: 2.23rem; */
+}
+
+.aside1
+{
+	height: 1.24rem;
+	width: 2.55rem;
+	position: relative;
+	left:0.5rem;
+	top:0.5rem;
+}
+.aside1 img
+{
+	height: 1.24rem;
+	width:1.24rem;
+}
+.aside1 span
+{	
+	display: inline-block;
+	height: 0.34rem;
+	width:1.15rem;
+	font-size: 0.24rem;
+    float: right;
+    line-height: 0.6rem;
+}
+
+.aside1 span a
+{
+	color: #fff;
+}
+
+.aside1 div
+{
+	height: 0.5em;
+	width:1.24rem;
+}
+
+.aside ul li:not(:first-child)
+{
+	height: 1.05rem;
+	width: 100%;
+	line-height: 1.05rem;
+	text-align: center;
+	font-size: 0.3rem;
+}
+
+.aside ul li:not(:first-child) a
+{
+	color:white;
+}
+
+.aside2
+{
+	width: 2.2rem;
+	height: 0.8rem;
+	font-size:0.25rem;
+	position: relative;
+	top:2.1rem;
+	left: 0.3rem;
+}
+
+.aside2 p
+{
+	color: white;
+	margin-top: 0.2rem;
+}
+
+.aside2 img
+{
+	position: relative;
+	top:-0.5rem;
+	left: 2.2rem;
+}
+
+/* 切换的轮播图 */
+
+.banner
+{
+	width: 100%;
+	background-color: white;
+	height: 3.2rem;
+	margin-top: 0.15rem;
+}
+
+.banner img
+{
+	width: 6.4rem;
+	height: 3.2rem;
+}
+
+.none:
+{
+	display: none;
+}
+
+/*京科头条*/
+.jktt
+{
+	height: 0.99rem;
+	width: 6.4rem;
+	border-bottom: 0.01rem solid lightgray;
+	color: #367fc1;
+	background-color: white;
+	margin-top: 0.15rem;
+}
+
+.jktt div
+{
+	display: inline-block;
+	margin-left: 0.1rem;
+	float: left;
+	margin-top: 0.1rem;
+
+}
+
+.jktt1
+{
+	width: 0.99rem;
+	height: 0.82rem;
+	border-right:0.01rem solid lightgray ;
+	margin-right: 0.1rem;
+
+}
+
+.jktt1 ul li 
+{
+	height: 0.4rem;
+	width: 0.99rem;
+	line-height: 0.4rem;
+	font-size: 0.28rem;
+	text-align: center;
+}
+
+.jktt2
+{
+	width: 4rem;
+	height: 0.82rem;
+}
+
+.marquee
+{
+	height: 0.6rem;
+}
+.jktt2 ul li 
+{
+	height: 0.4rem;
+	width: 4rem;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	list-style-type: disc;
+	color:red;
+}
+
+.jktt2 ul li a
+{
+	color:#111;
+}
+
+/*article*/
+
+
+/*西安京科，实力品牌*/
+.xa
+{
+	width: 6.4rem;
+	height: 0.8rem;
+	background-color: white;
+/*	font-size: 0.35rem;
+	line-height: 0.8rem;
+	color:#367fc1 ;
+	display: inline-block;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 0.2rem 0 0.01rem #ddd;*/
+}
+.xa img
+{
+	width: 3.86rem;
+	height: 0.49rem;
+	margin-left: 1.25rem;
+	margin-top: 0.1rem;
+
+}
+
+/*选医院认准大品牌*/
+.xyy
+{
+	width: 6.4rem;
+	height: 0.65rem;
+	background-color: white;
+}
+.xyy span
+{
+	width: 5.8rem;
+	height: 0.5rem;
+	background-color: #367fc1;
+	color: white;
+	font-size: 0.25rem;
+	line-height: 0.5rem;
+	text-align: center;
+	display: inline-block;
+	margin-left:0.3rem;
+}
+
+/*蓝条下面的医院介绍*/
+
+.say
+{
+	height: 2rem;
+	width: 	6.4rem;
+	/*margin-top: 0.15rem;*/
+	background-color: white;
+	
+}
+
+.say img
+{
+	width:2.95rem ;
+	height: 2rem;
+	margin-left: 0.3rem;
+}
+
+
+.say p
+{
+	float:right;
+	width: 2.65rem;
+	height: 2rem;
+	font-size: 0.23rem;
+  line-height: 0.35rem;
+  margin-right: 0.3rem
+}
+
+/*关于医院的新闻*/
+.yyxw
+{
+	height: 2rem;
+	width: 6.4rem;
+	background-color: white;
+	display: inline-block;
+}
+
+.yyxw1
+{
+	width: 2.7rem;
+	height: 1.82rem;
+	float:left;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+}
+
+.yyxw1 li
+{
+	height: 0.6rem;
+	width: 100%;
+	line-height: 0.6rem;
+	font-size: 0.22rem;
+
+}
+
+.yyxw1 li a
+{
+	color:#222;
+}
+
+.zuixin
+{
+	border: 1px solid #367fc1;
+	display: inline-block;
+	height: 0.3rem;
+	width: 0.6rem;
+	line-height: 0.3rem;
+	text-align: center;
+	color: #367fc1;
+	margin-right: 0.05rem;
+}
+
+
+
+.yyxw2
+{
+	width: 1.38rem;
+	height: 1.82rem;
+	float:right;
+	margin-right: 0.3rem;
+	margin-top: 0.2rem;
+}
+
+.yyxw2 li 
+{
+	height: 0.6rem;
+	width: 100%;
+	line-height: 0.6rem;
+	font-size: 0.23rem;
+}
+.yyxw2 li a
+{
+	color: #724226;
+}
+
+/*一键拨通电话*/
+.dh
+{
+	height: 0.7rem;
+	width: 6.4rem;
+	background-color: white;
+}
+
+.dh img
+{
+	width: 2.97rem;
+	height: 0.5rem;
+	margin-left:1.8rem;
+
+}
+
+/* 京科专家疗效保证 */
+.zhuanjia
+{
+	height: 7.5rem;
+	width:6.4rem;
+	background-color: white;
+	margin-top: 0.15rem;
+}
+
+/* 首席专家 */
+.zj1 
+{
+	width: 5.8rem;
+	height: 3.3rem;
+}
+.zj1>img
+{
+	width: 5.8rem;
+	height: 3.3rem;
+	margin-left: 0.3rem;
+}
+
+.zj1a
+{
+	width: 2.05rem;
+	height: 0.59rem;
+	position: relative;
+	left: 3.85rem;
+	top:-0.89rem;
+}
+.zj1a img
+{
+	width: 2.05rem;
+	height: 0.59rem;
+	
+}
+/* 专家轮播图 */
+.zj2
+{
+	width: 6.4rem;
+	height: 1.68rem;
+}
+
+.zj2 img
+{
+	width: 2.85rem;
+	height: 1.58rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.3rem;
+}
+
+.zj2a
+{
+	margin-left: 0.3rem;
+	margin-right: 0.038rem;
+}
+.swiper-slide 
+{
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+
+/* 小圆点 */
+/* .yd
+{
+	width: 5.8rem;
+	height: 0.4rem;
+	margin-top: 0.15rem;
+	margin-bottom: 0.15rem;
+	margin-left: 0.3rem;
+}
+
+.xyd
+{
+	width: 1.2rem;
+	height: 0.3rem;
+	margin:0 auto;
+}
+
+.xyd div
+{
+	width: 0.2rem;
+	height: 0.2rem;
+	background-color: #e8e8e8;
+	border:0.01rem solid #e8e8e8;
+	border-radius: 50%;
+	display: inline-block;
+} */
+
+/* 京科技术 */
+.jkjs
+{
+	width: 6.4rem;
+	height: 8.85rem;
+	margin-top: 0.15rem;
+	background: white;
+}
+
+/* 技术介绍 */
+.jsjs
+{
+	width: 5.8rem;
+	height: 6.8rem;
+	margin-left: 0.3rem;
+	
+}
+
+.jsjs ul
+{
+	margin-bottom: 0.3rem;
+	width: 5.8rem;
+	height: 1.42rem;
+}
+
+
+
+.jsjs1
+{
+	width: 1.42rem;
+	height: 1.42rem;
+	float:left;
+}
+
+.jsjs1 img
+{
+	width: 1.42rem;
+	height: 1.42rem;
+}
+
+.jsjs2
+{
+	width: 4.15rem;
+	height: 1.42rem;
+	float: right;
+}
+
+.jsjs2 p:first-child 
+{
+	width: 4.15rem;
+	height: 0.54rem;
+	border-bottom: 0.01rem solid lightgray;
+	line-height: 0.54rem;
+	font-size: 0.31rem;
+}
+
+.jsjs2 p:first-child span:last-child
+{
+	margin-left: 0.15rem;
+	color:#367fc1;
+}
+.jsjs2 p:last-child
+{
+	width: 4.15rem;
+	height: 0.84rem;
+	font-size: 0.23rem;
+	color:gray;
+	line-height: 0.49rem;
+}
+
+/* 技术下面两个按钮 */
+.jsB
+{
+	width: 5.8rem;
+	height: 0.8rem;
+	margin-left: 0.3rem;
+}
+
+.jsB img
+{
+	width: 2.57rem;
+	height: 0.5rem;
+	margin-left: 0.2rem;
+	/* margin-right: 0.15rem; */
+}
+
+/* 京科荣誉 */
+.jkry
+{
+	width: 6.4rem;
+	height: 7.5rem;
+	margin-top: 0.3rem;
+	background-color: white;
+}
+
+.jkry1
+{
+	width: 5.8rem;
+	height: 3.17rem;
+	margin-left: 0.3rem;
+
+}
+
+.jkry1 img
+{
+	width: 5.8rem;
+	height: 3.17rem;
+}
+
+
+/* 脚部 */
+footer
+{
+	width: 6.4rem;
+	height: 2.6rem;
+}
+
+.f1
+{
+	width: 6.4rem;
+	height: 0.58rem;
+	margin: 0.18rem 0;
+	background: url(../images/db1.png);
+}
+
+.f1 li
+{
+	width: 0.8rem;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	font-size: 0.25rem;
+	margin-left: 0.62rem;
+	display: inline-block;
+}
+
+.f1 li a
+{
+		color:white;
+}
+
+.f2
+{
+	width: 6.4rem;
+	height: 1.85rem;
+	background: url(../images/db2.png);
+}
+
+.f2a
+{
+	width: 4rem;
+	height: 1.2rem;
+	margin-left: 0.3rem;
+	
+	position: relative;
+	top: 0.3rem;
+
+}
+.f2a li
+{
+	width: 4rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	color:white;
+	font-size: 0.2rem;
+}
+
+/* 返回按钮 */
+.gotop
+{
+	width: 1.2rem;
+	height: 1.2rem;
+	position: fixed;
+	bottom: 0.1rem;
+	right: 0.2rem;
+	background-color: #a5aeb5;
+	opacity: 0.5;
+
+}
+
+.gotop img
+{
+	width: 1.2rem;
+	height: 0.6rem;
+}
+.gotop>p
+{
+	width: 1.2rem;
+	height: 0.3rem;
+	margin-top: 0.2rem;
+	color:white;
+
+}
+
+
+.liuyan
+{
+	width: 6.4rem;
+	height: 5.7rem;
+	background-color: white;
+}
+
+.liuyan1
+{
+	width: 5.8rem;
+	height: 2.6rem;
+	margin-left: 0.3rem;
+}
+
+.liuyan1 li
+{
+	width: 100%;
+	height: 0.6rem;
+	margin-top: 0.15rem;
+}
+
+.liuyan1>li>span:first-child
+{
+	width: 1.4rem;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	display: inline-block;
+
+}
+
+.liuyan1>li>input
+{
+	width: 3.8rem;
+	height: 0.5rem;
+	background-color: white;
+	display: inline-block;
+	font-size:0.3rem;
+	border: 0.02rem solid #666;
+
+}
+
+.sec4
+{
+	margin-left: 0.3rem;
+	width: 5.8rem;
+	height: 1.15rem;
+	display: inline-block;
+}
+
+.sec4 span
+{	
+	display: inline-block;
+	width: 1.15rem;
+	height: 1.15rem;
+	line-height: 1.15rem;
+	text-align: center;
+	margin-left: 0.5rem;
+}
+.sec4a
+{
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #a72121;
+
+}
+.sec4a a
+{
+	color: #fff;
+	font-size: 0.5rem;
+}

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手机版首页</title>
+	<meta name="applicable-device" content="mobile" />
+	<!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+	<meta content="telephone=no" name="format-detection"/> 
+	<!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- 全屏显示 -->
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<!-- UC强制全屏 -->
+	<meta name="full-screen" content="yes">
+	<!-- QQ强制全屏 -->
+	<meta name="x5-fullscreen" content="true">
+	<!-- 屏蔽百度转码 -->
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script type="text/javascript" src="jquery/jquery-1.7.1.min.js"></script>
+	<script src="jquery/swiper.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	
+</head>
+<body>
+<div class="conall"></div> <!-- 一个空div -->
+	<!-- 侧边栏 -->
+		<div class="aside">
+			<ul>
+				<li>
+					<div class="aside1">
+						<img src="images/aside1.png" alt="">
+						<span><a href="">专家在线点击问诊></a></span>
+
+					</div>
+				</li>
+				<li><a href="">康复病例</a></li>
+				<li><a href="">专家团队</a></li>
+				<li><a href="">医院新闻</a></li>
+				<li><a href="">费用咨询</a></li>
+				<li><a href="">技术设备</a></li>
+				<li><a href="">私密咨询</a></li>
+			</ul>
+
+			<div class="aside2">
+				<p>拨通医院官方电话</p>
+				<p>400-118-1990</p>
+				<img src="images/aside3.png" alt="">
+			</div>
+		</div>	<!-- 侧边栏结束 -->
+
+<div class="con"> <!-- 包裹了整个页面（头部 内容脚部） -->
+			
+		
+	<!-- 头部 -->
+	<header>
+		<!-- 最上面的部分 -->
+		<div class="top">
+			<ul>
+				<li class="top1"><img src="images/top1.png"></li>
+				<li class="top4"><img src="images/top2.png"></li>
+				<li class="top2">
+					<p>西安京科银屑病医院</p>
+					<p>Xi'an Jingke psoriasis hospital</p>
+				</li>
+				<li class="top3"><img src="images/top3.png"></li>
+				<div class="clear"></div>
+			</ul>
+		</div><!-- 最上面的部分结束 -->
+
+		
+		<!-- 切换的导航 -->
+		<div class="title">
+			<ul class="tt1">
+				<li class="tt1a show">医院首页</li>
+				<li class="tt1a">医院简介</li>
+				<li class="tt1a">来院路线</li>
+				<li class="gdxl">
+					<span >更多</span>
+					<span class="tt2a">V</span>
+				</li>
+			</ul>
+		</div>
+
+		<div class="xiala">
+			下拉的
+		</div>
+
+		<!-- 切换的轮播图 -->
+		<div class="banner">
+			<a href=""><img src="images/banner1.png"></a>
+		</div>
+
+		<div class="banner none">
+			医院简介
+		</div>
+
+		<div class="banner none">
+			来院路线
+		</div>
+
+		<!-- 京科头条 -->
+		<div class="jktt">
+			<div class="jktt1">
+				<ul>
+					<li>京科</li>
+					<li>头条</li>
+				</ul>
+			</div>
+				<div class="jktt2">
+					<marquee behavior="scroll" direction="up" scrollamount="3" onmouseover=this.stop() onmouseout=this.start() class="marquee">
+						<ul>
+							<li><a href="">1滚动新闻标题-滚动新闻标题</a></li>
+							<li><a href="">2滚动新闻标题-滚动新闻标题</a></li>
+							<li><a href="">3滚动新闻标题-滚动新闻标题</a></li>
+						</ul>
+					</marquee>
+				</div>
+		</div>
+		<div class="clear"></div>
+	</header><!-- /header -->
+	
+
+
+	<!-- 内容部分 -->
+	<article>
+		<!-- 西安京科，实力品牌 -->
+		<div class="xa">
+			<!-- <span>西安京科，实力品牌</span> -->
+			<img src="images/xa_03.png" alt="">
+		</div>
+
+
+		<!-- 选医院认准大品牌 -->
+		<div class="xyy">
+			<span>选医院要认准大品牌。西安京科，值得信赖的医院！
+			</span>
+		</div>
+
+		<!-- 蓝条下面的医院介绍 -->
+		<div class="say">
+			<img src="images/say.png">
+			<p>西安京科银屑病医院始建于2008年8月，建院以来不断创新，特聘美、加权威专家为我院医学顾问...<a href="#" class="red">【详情】</a></p>
+		</div>
+
+		<!-- 关于医院的新闻 -->
+		<div class="yyxw">
+			<ul class="yyxw1">
+				<li><a href=""><img src="images/yyxw.png">关于医院口碑的新闻</a></li>
+				<li><a href=""><img src="images/yyxw.png">关于医院口碑的新闻</a></li>
+				<li><a href=""><img src="images/yyxw.png">关于医院口碑的新闻</a></li>
+			</ul>
+			<ul class="yyxw2">
+				<li><a href="#">咨询专家></a></li>
+				<li><a href="#">咨询专家></a></li>
+				<li><a href="#">咨询专家></a></li>
+			</ul>
+		</div>
+		
+		<!-- 一键拨通电话 -->
+		<div class="dh"><a href="#"><img src="images/dh_03.png" alt=""></a></div>
+
+		
+		<!-- 京科专家疗效保证 -->
+		<div class="zhuanjia">
+			<div class="xa">
+			<img src="images/zhuanjia_06.png" alt="">
+			</div>
+
+			<div class="xyy">
+				<span>看病就是看专家，京科专家用疗效说话！
+				</span>
+			</div>
+			
+			<!-- 首席专家 -->
+			<div class="zj1">
+				<img src="images/zj1_09.png" alt="">
+				<a href="" class="zj1a"><img  src="images/zxh.png" alt=""></a>
+			</div>
+			
+			<!-- 专家轮播图 -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper zj2"> 
+					<div class="swiper-slide"><img src="images/zj2_03.png" class="zj2a">
+					<img src="images/zj3_05.png" class="swiper-slide zj2b">
+					</div>
+					<div class="swiper-slide"><img src="images/zj2_03.png" class="zj2a">
+					<img src="images/zj3_05.png" class="swiper-slide zj2b">
+					</div>
+					<div class="swiper-slide"><img src="images/zj2_03.png" class="zj2a">
+					<img src="images/zj3_05.png" class="swiper-slide zj2b">
+					</div>
+				</div>
+
+				<!-- Add Pagination -->
+        		<div class="swiper-pagination"></div>
+			</div>
+
+			<!-- 小圆点 -->
+			<!-- <div class="yd">
+				<div class="xyd">
+					<div class="xyd1"></div>
+					<div class="xyd2"></div>
+					<div class="xyd3"></div>
+				</div>
+			</div>
+			 -->
+			<!-- 小圆点下面的预约按钮 -->
+			<div class="dh"><a href="#"><img src="images/zj4_10.png" alt=""></a></div>
+		</div><!-- 京科专家疗效保证 结束-->
+
+
+
+		<!-- 京科技术 -->
+		<div class="jkjs">
+			<!-- 西安京科，实力品牌 -->
+			<div class="xa">
+				<!-- <span>西安京科，实力品牌</span> -->
+				<img src="images/js1_14.png" alt="">
+			</div>
+
+
+			<!-- 选医院认准大品牌 -->
+			<div class="xyy">
+				<span>3D自体免疫疗法，近13万个成功案例做保障的疗法！
+				</span>
+			</div>
+			
+			<!-- 技术介绍 -->
+			<div class="jsjs">
+				<ul >
+					<li class="jsjs1">
+						<img src="images/js2_17.png">
+					</li>
+					<li class="jsjs2">
+						<p>
+							<span class="red">查</span>
+							<span>系统检查，精确分析</span>
+						</p>
+						<p>通过数字分析技术，实时、动态观测银
+屑病发生、发展、疗效及皮损情况。</p>
+					</li>
+				</ul>
+				<ul >
+					<li class="jsjs1">
+						<img src="images/js2_17.png">
+					</li>
+					<li class="jsjs2">
+						<p>
+							<span class="red">查</span>
+							<span>系统检查，精确分析</span>
+						</p>
+						<p>通过数字分析技术，实时、动态观测银
+屑病发生、发展、疗效及皮损情况。</p>
+					</li>
+				</ul>
+
+				<ul >
+					<li class="jsjs1">
+						<img src="images/js2_17.png">
+					</li>
+					<li class="jsjs2">
+						<p>
+							<span class="red">查</span>
+							<span>系统检查，精确分析</span>
+						</p>
+						<p>通过数字分析技术，实时、动态观测银
+屑病发生、发展、疗效及皮损情况。</p>
+					</li>
+				</ul>
+
+				<ul >
+					<li class="jsjs1">
+						<img src="images/js2_17.png">
+					</li>
+					<li class="jsjs2">
+						<p>
+							<span class="red">查</span>
+							<span>系统检查，精确分析</span>
+						</p>
+						<p>通过数字分析技术，实时、动态观测银
+屑病发生、发展、疗效及皮损情况。</p>
+					</li>
+				</ul>
+			</div><!-- 技术介绍结束 -->
+
+			<!-- 技术下面两个按钮 -->
+			<div class="jsB">
+				<a href=""><img src="images/js3_21.png"></a>
+				<a href=""><img src="images/js4_23.png"></a>
+			</div>
+		</div><!-- 京科技术结束 -->
+
+		<!-- 京科荣誉 -->
+		<div class="jkry">
+			<!-- 西安京科，实力品牌 -->
+			<div class="xa">
+				<!-- <span>西安京科，实力品牌</span> -->
+				<img src="images/ry1_28.png" alt="">
+			</div>
+
+			<!-- 选医院认准大品牌 -->
+			<div class="xyy">
+				<span>医院最大的荣誉，就是治别人治不好的病！
+				</span>
+			</div>
+			
+			<div class="jkry1">
+				<img src="images/ry2_32.png" alt="">
+			</div>
+			
+			<!-- 小圆点 -->
+			<div class="yd">
+				<div class="xyd">
+					<div class="xyd1"></div>
+					<div class="xyd2"></div>
+					<div class="xyd3"></div>
+					<div class="xyd4"></div>
+				</div>
+			</div>
+
+				<!-- 康复病例 -->
+		<div class="yyxw">
+			<ul class="yyxw1">
+				<li><a href=""><span class="zuixin">最新</span>康复病例康复病例</a></li>
+				<li><a href=""><span class="zuixin">最新</span>康复病例康复病例</a></li>
+				<li><a href=""><span class="zuixin">最新</span>康复病例康复病例</a></li>
+			</ul>
+			<ul class="yyxw2">
+				<li><a href="#">查看详情></a></li>
+				<li><a href="#">查看详情></a></li>
+				<li><a href="#">查看详情></a></li>
+			</ul>
+		</div>
+		<!-- 一键拨通电话 -->
+		<div class="dh "><a href="#"><img class=" liuyan2" src="images/ry3_35.png" alt=""></a></div>
+		</div>	<!-- 京科荣誉结束 -->
+	
+		<!-- 患者留言 -->
+		<div class="jkjs hzly">
+			<!-- 西安京科，实力品牌 -->
+			<div class="xa">
+				<!-- <span>西安京科，实力品牌</span> -->
+				<img src="images/hz1_39.png" alt="">
+			</div>
+
+
+			<!-- 选医院认准大品牌 -->
+			<div class="xyy">
+				<span>患者之间的交流，才能反映出一个医院的真实水平！
+				</span>
+			</div>
+			
+			<!-- 技术介绍 -->
+			<div class="jsjs">
+				<ul >
+					<li class="jsjs1">
+						<img src="images/hz2_42.png">
+					</li>
+					<li class="jsjs2">
+						<p>
+							<span >星星的你：</span>
+							<span></span>
+						</p>
+						<p>明天董植华主任在吗？上次去没看上他的
+号，明天在吗？需要预约挂号吗？</p>
+					</li>
+				</ul>
+				<ul >
+					<li class="jsjs1">
+						<img src="images/hz2_42.png">
+					</li>
+					<li class="jsjs2">
+						<p>
+							<span >星星的你：</span>
+							<span></span>
+						</p>
+						<p>明天董植华主任在吗？上次去没看上他的
+号，明天在吗？需要预约挂号吗？</p>
+					</li>
+				</ul>
+
+				<ul >
+					<li class="jsjs1">
+						<img src="images/hz2_42.png">
+					</li>
+					<li class="jsjs2">
+						<p>
+							<span >星星的你：</span>
+							<span></span>
+						</p>
+						<p>明天董植华主任在吗？上次去没看上他的
+号，明天在吗？需要预约挂号吗？</p>
+					</li>
+				</ul>
+
+				<ul >
+					<li class="jsjs1">
+						<img src="images/hz2_42.png">
+					</li>
+					<li class="jsjs2">
+						<p>
+							<span >星星的你：</span>
+							<span></span>
+						</p>
+						<p>明天董植华主任在吗？上次去没看上他的
+号，明天在吗？需要预约挂号吗？</p>
+					</li>
+				</ul>
+			</div><!-- 技术介绍结束 -->
+
+			<!-- 按钮 -->
+			<div class="dh "><a href="#"><img src="images/hz3_46.png" class="liuyan2"></a></div>
+		</div><!-- 患者结束 -->
+
+
+		<!-- 写留言的那个 -->
+	<div class="liuyan">
+		<!-- 西安京科，实力品牌 -->
+		<div class="xa">
+			<!-- <span>西安京科，实力品牌</span> -->
+			<img src="images/xa_03.png" alt="">
+		</div>
+
+		<!-- 选医院认准大品牌 -->
+		<div class="xyy">
+			<span>每天的专家号都是有限的，尽早预约以免耽误病情！
+			</span>
+		</div>
+		
+		<ul class="liuyan1">
+			<li>
+				<span>您的姓名</span>
+				<input type="text" id="name" value="" placeholder="请输入您的姓名">
+			</li>
+			<li>
+				<span>您的电话</span>
+				<input type="tel" id="tel" value="" placeholder="请输入您的号码">
+			</li>
+			<li>
+				<span>来院日期</span>
+				<input type="date">
+			</li>
+		</ul>
+		<div class="sec4">
+			<span><a href="" class="red">在线咨询</a></span>
+			<span class="sec4a"><a href="" >赞</a></span>
+			<span ><a href="" class="red">拨通电话</a></span>
+		</div>
+	</div>
+	</article>
+
+	<!-- 脚部 -->
+	<footer>
+		<ul class="f1">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">病例</a></li>
+			<li><a href="#">问答</a></li>
+			<li><a href="#">百科</a></li>
+		</ul>
+
+		<div class="f2">
+			<ul class="f2a">
+				<li>地址：莲湖区丰登北路中段72号</li>
+				<li>QQ：1966669318</li>
+				<li>咨询电话：029-81329999  </li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- 返回按钮 -->
+	<div class="gotop">
+		<img src="images/fh.png" alt="">
+		<p>返回顶部</p>
+	</div>
+	<!-- </div> -->
+
+	
+
+</body>
+</html>

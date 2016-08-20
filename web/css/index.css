@@ -1,0 +1,1975 @@
+@charset "utf-8";
+/* 通用样式初始化 */
+*{margin:0;padding:0;border:none;list-style:none;outline:none;}
+body 
+{ font-size: 14px; font-family: "微软雅黑";  padding: 0; margin: 0; color: #535353; }
+div, form, ul, dd, dl, ol, dt, li, p 
+{ list-style: none; padding: 0; margin: 0; }
+h1, h2, h3, h4, h5, h6 
+{ font-size: 100%; margin: 0; padding: 0;  }
+table 
+{ border-collapse: separate; border-spacing: 0; }
+table, td, th 
+{ vertical-align: middle; }
+textarea, input, button, select, keygen, legend 
+{ outline: 0; margin: 0; padding: 0;}
+img
+{border:none;vertical-align: center;}
+input[type="button"],input[type="submit"],input[type="reset"]{-webkit-appearance:none;outline:none;}
+a 
+{ text-decoration: none;  cursor: pointer; }
+a:hover 
+{ text-decoration: none; }
+.clear 
+{ width: 0; height: 0; margin: 0; padding: 0; line-height: 0px; font-size: 0px; clear: both;}
+.none 
+{ display: none; }
+.left 
+{ float: left; }
+.right 
+{ float: right; }
+.red
+{ color: #a72121;}
+.orange
+{
+	color: #e2651b;
+}
+
+html
+{
+	font-size:62.5%;
+}
+/* ----------------------------------------- */
+
+
+
+body
+{
+	min-width: 800px;
+	background-color: #fcf8f2;
+	
+}
+/* 列表页头部 */
+header
+{
+	width:100%;
+	/* height:140px; */
+	background: url(../images/top.png) repeat-x;
+	padding-top: 35px;
+}
+
+/* <!-- logo --> */
+header .lg
+{	
+	height: 87px;
+	width:980px;
+	margin:0 auto;
+}
+
+/* <!-- 导航 --> */
+.title
+{
+	width:100%;
+	height:40px;
+	background-color: #724226;
+	overflow: hidden;
+}
+
+.title ul
+{	
+	width:980px;
+	height: 40px;
+	margin:0 auto;
+	text-align: center;
+	
+
+}
+
+.title ul li
+{
+	width:118px;
+	height:25px;
+	border-right: 1px solid gray;
+	display: inline-block;
+	line-height: 25px;
+	margin-top: 10px;
+}
+.title ul li a
+{
+	color:white;
+}
+
+.lil
+{
+	background: url(../images/_.png) repeat-y right;
+}
+
+/* <!-- banner --> */
+.banner
+{
+	height:385px;
+	width:100%;
+	background-color: #9e6442;
+}
+.banner img
+{
+	height:385px;
+	width:100%
+}
+
+/* <!-- 10大关注焦点话题 --> */
+
+.focus
+{
+	width:980px;
+	height: 124px;
+	background-color: #f7eae2;
+	margin:10px auto 0;
+}
+
+/* 10大和右边的搜索框 */
+.f1
+{
+	width:100%;
+	height: 25px;
+	
+}
+
+.f1>img
+{
+	height:25px;
+	width:160px;
+	margin-left: 20px;
+	margin-top: 15px;
+
+}
+
+/* 右边的搜索框 */
+.find
+{
+	width:345px;
+	height: 25px;
+	float: right;
+	position: relative;
+	margin-top: 15px;
+	margin-right: 38px;
+}
+
+.find>img
+{
+	height: 25px;
+	float:left;
+}
+
+
+
+.find .txt
+{
+	width:165px;
+	height: 25px;
+}
+
+.find .sousuo
+{	
+	display: inline-block;
+	width: 65px;
+	height: 25px;
+	background-color: #9e6442;
+	text-align: center;
+	line-height: 25px;
+}
+.find .sousuo a
+{
+	color: white;
+}
+
+.find .zx
+{
+	width: 78px;
+	color: white;
+	background-color: #e2651b;
+}
+
+
+/* 焦点话题第二行和第三行文字 */
+.f23 
+{
+	width:100%;
+	height:60px;
+	margin-top: 25px;
+	font-size: 1.2rem;
+	
+}
+
+.f2,.f3
+{
+	width:100%;
+	margin-left: 20px;
+	/* margin-right: 20px; */
+
+}
+
+.f2
+{
+	margin-bottom: 15px;
+}
+
+.f23 span:nth-child(even)
+{	
+	display: inline-block;
+	width:135px;
+	margin-right: 34px;
+	border-bottom: 1px dotted #9e6442;
+	
+}
+
+.f23 span:nth-child(odd)
+{	
+	display: inline-block;
+	width:15px;
+	height:15px;
+	background:#e2651b; 
+	text-align: center;
+	line-height: 16px;
+}
+
+/* 银屑病 */
+.yinxb
+{
+	height: 95px;
+	width: 980px;
+	background-color: #724226;
+	margin:10px auto 0;
+
+}
+
+.yxb
+{
+	display: inline-block;
+	width:23%;
+	height: 80%;
+	margin:10px 5px;
+	color:white;
+}
+
+.yxb img,.yxb span
+{
+	display: inline-block;
+}
+
+.z1
+{
+	font-size: 1.8rem;
+}
+
+.z2
+{
+	font-size: 0.8rem;
+}
+
+.y2 span ,.y3 span
+{
+	border-right:1px solid gray;
+	padding:0 8px;
+	font-size: 1.3rem;
+
+}
+.y2
+{
+	margin-left:5px;
+	margin-top: 5px;
+
+}
+
+.y3
+{
+	margin-left:30px;
+	margin-top: 5px;
+}
+
+/* ------------------------------ */
+/* article */
+article
+{
+	width: 980px;
+	margin:10px auto 0;	
+	background-color: white;
+	overflow: hidden;
+}
+
+/*新闻*/
+.news
+{
+	height: 300px;
+	width: 100%;
+
+}
+
+.newsLeft
+{
+	width: 708px;
+	height: 412px;
+	float:left;
+}
+/*新闻图左一*/
+.nl1
+{
+	width: 297px;
+	height: 300px;
+	float:left;
+	
+}
+
+/*<!-- 新闻图左二 -->*/
+.nl2
+{
+	width:400px;
+	height:300px;
+	margin-left: 10px;
+	float:left;
+	background-color: white;
+	
+}
+
+/*新闻图左二上*/
+.nl2-first
+{
+	width:100%;
+	height: 55px;
+	line-height: 55px;
+}
+
+.nl2-first span
+{
+	width:130px;
+	height: 55px;
+	display: inline-block;
+	/* color:#9f7260; */
+	/* padding-right: 10px; */
+	font-size:1.8rem;
+	/* margin-right: 21px; */
+	text-align: center;
+}
+.bg
+{
+	background: url(../images/dtbg.png) 6px 4px no-repeat;
+	color:white;
+	background-size: 117%;
+}
+/*新闻图左二中*/
+.nl2-middle
+{	width:100%;
+	height: 80px;
+	border-bottom: 1px solid gray;
+}
+
+.nl2-middle span
+{
+	margin:10px;
+}
+
+.nl2-middle p
+{	width:360px;
+	height: 60%;
+	margin-top: 10px;
+	text-indent: 2em;
+}
+
+
+/* 新闻图左二下 */
+.nl2-third
+{	display: inline-block;
+	width:100%;
+	height: 155px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+
+}
+
+.nl2-third ul li
+{
+	margin-top: 10px;
+	list-style-type: circle;
+	margin-left: 10px;
+}
+
+.nl3
+{
+	width: 100%;
+	height: 105px;
+	
+}
+
+.nl3 img
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+}
+
+/* 右边的新闻图 */
+.newsRight
+{	
+	width: 260px;
+	height: 412px;
+	float:left;
+	margin-left: 10px;
+	/* border:1px solid red; */ 
+	background-color: white;
+}
+
+/* 右1 */
+.nr1
+{
+	margin: 0 10px;
+}
+
+/* 右2 */
+.nr2
+{	width: 230px;
+	height: 60px;
+	margin:0 10px;
+	font-size: 1rem;
+	margin-top: 15px;
+	text-indent: 2em;
+	line-height: 20px;
+
+}
+/* 右3 */
+.nr3
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 260px;
+	height: 100px;
+}
+.nr3 div
+{
+	float: left;
+	margin:10px;
+	width: 100px;
+	height: 40px;
+}
+
+.nr3 div span
+{
+	line-height: 40px;
+}
+
+.nr3 div span a
+{
+	color: #666;
+}
+/* 聚焦卫生部 */
+.jjwsb
+{
+	width: 100%;
+	height:775px;
+	margin:10px auto 0;
+	background-color: white;
+}
+
+/* 卫生部第一部分 */
+.wsbT
+{	
+	width: 100%;
+	height: 65px;
+	float: left;
+	border-bottom: 1px solid lightgray;
+
+}
+
+.wsbT1
+{
+	width: 220px;
+	height: 100%;
+	margin-left: 10px;
+	float: left;
+	display: flex;
+
+}
+
+.wsbT1 span
+{
+	margin-right: 5px;
+	margin-top: 20px;
+	
+}
+
+.wsbT1 span:first-child
+{
+	height: 38px;
+	width: 38px;
+}
+
+.wsbT2
+{
+	
+	width: 480px;
+	height: 100%;
+	float: left;
+	
+}
+
+.wsbT2 span:first-child
+{	
+	font-size: 1.6rem;
+	margin-left: 40px;
+	margin-top: 25px;
+	line-height: 65px;
+
+}
+
+
+.myname
+{
+	position: relative;
+	left:20px;
+	top:-20px;
+}
+
+.wsbT3
+{
+	width: 180px;
+	height: 100%;
+	float: left;
+	margin-left: 50px;
+}
+.wsbT3 span
+{
+	color:#e47237;
+	font-size: 2rem;
+	font-weight: bolder;
+	margin-right: 10px;
+
+}
+
+.wsbT3 img
+{
+	
+	margin-top: 10px;
+}
+
+/* 卫生部第二部分 */
+.wsbS
+{
+	width: 100%;
+	height: 310px;
+	margin-top: 24px;
+}
+
+/* 卫生部第二部分左边 */
+.wsbSleft
+{
+	width: 440px;
+	height: 100%;
+	float:left;
+}
+.wsbSleft img
+{
+	width:425px;
+	height: 100%;
+	margin-left: 10px;
+}
+
+/* 卫生部第二部分右边 */
+.wsbSright
+{
+	width:540px;
+	height: 100%;
+	/* display: flex; */
+	float:left;
+
+	
+}
+.wsbSright div
+{
+	margin-left: 17px;
+
+}
+
+/* 卫生部第二部分右边上面 */
+.jr1
+{	
+	width: 507px;
+	height: 120px;
+	background: url(../images/jbg.png);
+	background-size: 507px 140px;
+}
+
+/* 卫生部第二部分右边中间 */
+.jr2
+{	
+	float:left;
+	width:507px;
+	height: 104px;
+	line-height: 25px;
+}
+
+.jr2 span
+{
+	text-indent: 10px;
+	line-height: 20px;
+}
+
+
+/*  卫生部第二部分右边下面*/
+.jr3
+{	
+	width:507px;
+	height: 65px;
+	float:left;
+	
+}
+
+.jr3 div
+{
+	width:507px;
+	height:32px;
+	display: flex;
+	margin-left:0;
+}
+
+
+/* 卫生部第三部分 */
+.wsbThrid
+{
+	width:100%;
+	height: 180px;
+	margin-top: 20px;
+	/* display: flex; */
+	display: inline-block;
+}
+.wsbThrid>div
+{	
+	width:225px;
+	display: inline-block;
+	/* float:left; */
+	margin-left: 12px;
+}
+
+.wsbThrid>div div:nth-child(even)
+{
+	margin-left: 10px;
+}
+
+/* 卫生部第四部分 */
+.wsbFour
+{
+	width: 100%;
+	height: 152px;
+	margin-top: 10px;
+}
+.wsbFour img:first-child
+{
+	margin-left: 10px;
+	height:100%;
+	width:48px;
+}
+.fimg
+{
+	height: 100%;
+	width:220px;
+	margin:0 3px;
+}
+
+
+/* 聚焦名医堂 */
+
+.myt
+{
+	width: 100%;
+	height: 560px;
+	margin-top: 10px;
+	background-color: white;
+}
+
+/* 名医堂第二部分 */
+.myt2
+{
+	width: 100%;
+	height: 470px;
+}
+
+.myt2>img
+{
+	width:950px;
+	height: 450px;
+	margin:10px 10px;
+}
+
+.zxzj,.yyzj,.zxzj2,.yyzj2
+{	
+	display: inline-block;
+	width: 125px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-size:2.2rem ;
+	position: relative;
+}
+.zxzj a,.yyzj a,.zxzj2 a,.yyzj2 a
+{
+	color:white;
+}
+.zxzj
+{
+	background-color: #9b9b9b;
+	top:-77px;
+	right:-510px;
+}
+
+
+
+.yyzj
+{
+	background-color: #9b9b9b;
+	top:-77px;
+	right:-530px;
+
+}
+
+.on 
+{
+	background-color: #e2651b;
+}
+
+/*规范化技术*/
+.gfh
+{
+	background-color: white;
+	width:100%;
+	height: 750px;
+	/* border:1px solid red; */
+}
+
+/*规范化第二部分*/
+
+.gfh2
+{
+	width: 780px;
+	height: 45px;
+	margin:15px auto;
+}
+
+.gfh2 span
+{
+	font-size: 3rem;
+	color: #724226;
+	line-height: 45px;
+	margin-right: 10px;
+}
+
+.gfh2 img
+{
+	width: 485px;
+	height: 40px;
+}
+
+.gfh>p 
+{
+	width: 930px;
+	height: 45px;
+	line-height: 25px;
+	font-size: 0.9rem;
+	margin: 0 auto;
+}
+
+/*规范化需要切换的部分*/
+.gfh3
+{
+	width: 955px;
+	height: 450px;
+	margin: 10px auto;
+}
+
+.gfh3a
+{
+	width: 760px;
+	height: 450px;
+	/* border:1px solid red; */
+	float:left;
+}
+ .none{
+    display:none;
+  }
+
+  /* 三级监测的布局 */
+.sjjc1
+{
+	width: 760px;
+	height: 220px;
+}
+
+.sjjc1 ul
+{
+	display: inline-block;
+}
+
+.sjjc1 ul:first-child
+{
+	width: 172px;
+	height: 220px;
+}
+
+.sjjc1 ul:nth-child(2)
+{
+	width: 172px;
+	height: 220px;
+}
+
+.sjjc1 ul:nth-child(3)
+{
+	width: 172px;
+	height: 220px;
+}
+
+.sjjc1 ul:nth-child(4)
+{
+	width: 35px;
+	height: 40px;
+}
+
+
+
+.sjjc1 ul:last-child
+{
+	width: 195px;
+	height: 220px;
+	position: relative;
+	top:17px;
+}
+
+.sjjc1 ul li:first-child
+{
+	width: 100%;
+	height: 135px;
+}
+
+.sjjc1 ul:not(:nth-child(4)) li:first-child img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.sjjc1 ul li:nth-child(2)
+{
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: bolder;
+	line-height: 30px;
+	border-bottom: 1px solid lightgray;
+	margin:0 auto;
+}
+
+.sjjc1 ul:nth-child(4) li
+{
+	
+	width: 35px;
+	height: 43px;
+	position: relative;
+	top:-70px;
+}
+
+
+
+.sjjc1 ul li:nth-child(3)
+{
+	width: 150px;
+	height: 35px;
+	text-align: left;
+	font-size: 1.1rem;
+	line-height: 20px;
+	margin:0 auto;
+}
+
+.sjjc2
+{
+	width: 760px;
+	height: 210px;
+	margin-top: 20px;
+}
+
+.sjjc2a
+{
+	width: 385px;
+	height: 210px;
+	float:left;
+}
+.sjjc2a div
+{
+	background-color: #724226;
+	width: 385px;
+	height: 38px;
+}
+
+.sjjc2a div img
+{
+	width:32px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top:1px;
+}
+.sjjc2a div span
+{
+	color: white;
+	font-size: 2.1rem
+}
+.sjjc2a>p
+{
+	font-size: 1.3rem;
+	line-height: 30px;
+	margin-top: 15px;
+}
+
+
+.sjjc2b
+{
+	width: 368px;
+	height: 210px;
+	border: 1px solid #e2651b;
+	float:right;
+
+}
+.sjjc2b div
+{
+	width: 368px;
+	
+
+}
+
+.sjjc2b1
+{	
+	height: 70px;
+	color:white;
+	background-color: #e2651b;
+}
+
+.sjjc2b1 div:first-child
+{
+	width: 160px;
+	height: 70px;
+	text-align: center;
+	font-size: 3.3rem;
+	font-weight: bolder;
+	line-height: 70px;
+	float:left;
+}
+.sjjc2b1 div:last-child
+{
+	width: 205px;
+	height: 50px;
+	font-size: 1.2rem;
+	line-height: 20px;
+	float:left;
+	margin-top: 14px;
+}
+
+.sjjc2b2
+{
+	border-bottom: 1px solid #e2651b;
+	margin-top: 1px;
+	height: 68px;
+}
+
+.sjjc2b2 div:first-child
+{
+	width: 65px;
+	height: 68px;
+	background-color: #e2651b;
+	color:white;
+	float:left;
+	text-align: center;
+	font-size: 1.8rem;
+	line-height:30px;
+}
+
+
+.sjjc2b2 div:last-child
+{
+	width: 300px;
+	height: 68px;
+	font-size: 1rem;
+	line-height: 30px;
+	float:left;
+}
+
+/* 三大治疗准则的布局 */
+
+.sdzz ul
+{
+	width: 245px;
+	height: 445px;
+	float: left;
+	margin-left: 5px;
+	background-color: #f9f9f9;
+}
+
+.sdzz1 li:first-child
+{
+	height: 37px;
+	width: 245px;
+	background-color: #724226;
+	color:white;
+	font-size: 1.7rem;
+	text-align: center;
+	line-height: 37px;
+
+}
+
+.sdzz1 li:nth-child(2)
+{
+	height: 155px;
+	width: 245px;
+	margin-top: 20px;
+}
+
+.sdzz1 li:nth-child(2) div
+{
+	width: 245px;
+	height: 30px;
+	margin-top: 5px;
+}
+
+.sdzz1 li:nth-child(2) div span
+{
+	background-color: #e2651b;
+	width:17px;
+	height: 17px;
+	color:white;
+	display: inline-block;
+	text-align: center;
+	line-height: 17px;
+}
+
+.sdzz1 li:last-child
+{
+	height: 220px;
+	width: 245px;
+}
+
+.sdzz1 li:last-child img
+{
+	height: 210px;
+	width: 235px;
+}
+
+.sdzz1 li:nth-child(2) div p
+{
+	
+	display: inline-block;
+	background-color: #f2f2f2;
+	height: 34px;
+	margin:5px 5px;
+	line-height: 34px;
+	text-align: center;
+}
+
+/* 八大康复项目 */
+
+.bdkf1
+{
+	width: 755px;
+	height: 50px;
+
+}
+.bdkf1 span
+{	
+	display: inline-block;
+	width: 380px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color:#724226;
+	font-size: 2.5rem;
+	margin-left: 110px;
+	margin-top: 10px;
+
+}
+
+.bdkf1 a
+{
+	width: 160px;
+	height: 40px;
+	margin-left: 30px;
+}
+
+.bdkf1 a img
+{
+	width: 157px;
+	height: 25px;
+}
+
+
+
+.bdkf2
+{	
+
+	width: 760px;
+	height: 35px;
+	display: inline-block;
+}
+.bdkf2 img
+{
+	width: 760px;
+	height: 35px;
+}
+
+.bdkf3
+{
+	width: 760px;
+	height: 345px;
+}
+
+.bdkf3 ul
+{
+	width: 120px;
+	height: 345px;
+	display: inline-block;
+	margin-top:10px;
+	margin-right: 3px;
+}
+.bdkf3 ul li:first-child
+{
+	margin-bottom: 20px;
+}
+
+.bdkf3 ul li:last-child
+{	
+	display: inline-block;
+	height: 165px;
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Pk */
+
+.pk ul
+{
+	height: 445px;
+	display: inline-block;
+}
+
+.pk ul li img
+{
+	position: relative;
+	top:-25px;
+}
+
+
+.pk1
+{
+	width: 310px;
+	background-color: #f9f9f9;
+}
+.pk1 li
+{
+	width: 310px;
+	height:65px; 
+	text-align: center;
+	line-height: 65px;
+}
+.pk1 li:first-child
+{
+	font-size: 2.8rem;
+	font-weight: bolder;
+}
+
+.pk2
+{
+	width:100px;
+}
+.pk2 li
+{
+	width: 100px;
+	height:65px; 
+	text-align: center;
+	color:#724226;
+	line-height: 65px;
+}
+.pk2 li:first-child
+{
+	font-size: 2.8rem;
+	font-weight: bolder;
+}
+
+
+
+.pk3
+{
+	width: 310px;
+	background-color: #fdf9f4;
+}
+.pk3 li
+{
+	width: 310px;
+	height:65px; 
+	text-align: center;
+	color:#e2651b;
+	line-height: 65px;
+}
+.pk3 li:first-child
+{
+	font-size: 2.8rem;
+	font-weight: bolder;
+}
+
+/* 五大治疗优势 */
+.wd1
+{
+	width:760px;
+	height: 240px;
+	background: url(../images/wdbg.png) 284px 32px no-repeat;
+
+}
+.wd1a
+{
+	float:left;
+	width: 300px;
+	height: 240px;
+}
+
+.wd1a li
+{	
+	width: 300;
+	height: 70px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.wd1a1
+{
+	width: 20px;
+	height: 30px;
+	float: left;
+	font-size: 50px;
+}
+
+.wd1a2
+{
+	font-size: 18px;
+	height: 22px;
+	width: 269px;
+	float:right;
+}
+.wd1a3
+{
+	font-size: 12px;
+	height: 40px;
+	width: 269px;
+	margin-top: 5px;
+	line-height: 20px;
+	float:right;
+}
+
+
+
+.wd1b
+{
+	float:right;
+	width:235px;
+	height: 240px;
+	margin-right: 10px;
+}
+
+.wd1b li
+{	
+	width: 235;
+	height: 110px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.wd1b2
+{
+	font-size: 18px;
+	height: 22px;
+	width: 203px;
+	float:right;
+}
+.wd1b3
+{	
+	display: inline-block;
+	font-size: 12px;
+	height: 70px;
+	width: 203px;
+	margin-top: 5px;
+	line-height: 20px;
+	float:right;
+}
+
+
+
+
+
+.wd2
+{
+	margin: 20px 0;
+}
+
+.wd3
+{
+	width: 730px;
+	height: 95px;
+	margin:auto;
+	line-height: 25px;
+}
+
+
+/*切换部分的右边*/
+ul.gfh3b
+{
+	width: 175px;
+	height: 445px;
+	float:right;
+
+
+}
+
+
+
+.gfh3b li
+{
+	/*background-color: #9b9b9b;*/
+	box-sizing: border-box;
+	display: inline-block;
+	height:88px ;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+.old
+{
+	width: 170px;
+	margin-left: 5px;
+	background-color: #9b9b9b;
+}
+.gfh3b li p
+{
+	display: inline-block;
+	height: 44px;
+	color: white;
+}
+
+.gfh3b li p:first-child
+{
+	font-size: 1.8rem;
+	line-height: 60px;
+}
+
+.gfh3b li p:last-child
+{
+	font-size: 1rem;
+}
+
+.on1
+{
+
+	width: 175px;
+	background: url(../images/xsjbg.png) no-repeat;
+	background-size: 175px 88px;
+}
+
+.gfh4
+{
+	width: 955px;
+	height: 80px;
+	background-color: #f4f4f4;
+	margin:0 auto;
+}
+
+.gfh4a
+{
+	width: 160px;
+	height: 80px;
+	display: inline-block;
+}
+.gfh4a img
+{
+	width: 153px;
+	height: 48px;
+	margin:20px 20px;
+}
+
+.gfh4b
+{
+	width: 750px;
+	height: 80px;
+	/* display: inline-block; */
+	float:right;
+	margin-right:5px; ;
+	margin-top: 10px;
+
+
+}
+.gfh4b img
+{
+	width: 90px;
+	height: 28px;
+	float:right;
+
+}
+
+
+/*康复案例*/
+.kf
+{
+	width: 100%;
+	/* height: 1060px; */
+	height: auto;
+	
+	margin-top: 10px;
+	background-color: white;
+	/*display: flex;*/
+}
+
+/*康复案例第二部分*/
+.kfSecond
+{
+	width: 100%;
+	/* height: 881px; */
+	height: auto;
+	margin-top: 20px;
+	display: inline-block;
+}
+.kfS1
+{
+	width:100%;
+	height: 238px;
+	margin-bottom: 15px;
+	/*display: flex;*/
+}
+
+.kfS1>div
+{	
+	width:235px;
+	height: 100%;
+	display: inline-block;
+	 float:left; 
+	margin-left: 5px;
+	border:1px solid lightgray;
+}
+
+.kfS1>div img
+{
+	width: 235px;
+	height:155px;
+}
+
+.kfS1>div>span
+{
+	margin: 15px 0;
+}
+
+.kfS1 div h2
+{
+	font-size:1.4rem;
+	line-height: 26px;
+	text-align: center;
+	display: block;
+}
+.kfS1 div h2 a{
+	color:brown;
+}
+.kfS1 div p
+{
+	font-size:1.2rem;
+	line-height: 20px;
+	text-indent:2em;
+}
+
+/*查看更多康复案例*/
+.kfS2
+{
+	width:100%;
+	height: 75px;
+	margin-top: 10px;
+}
+
+.kfS2 img
+{
+	margin-left:120px;
+}
+
+/*康复案例最下面*/
+.kfT
+{
+	width: 100%;
+	height: 50px;
+}
+.kfT input
+{
+	width:335px;
+	height: 40px;
+	color:white;
+	margin:0 60px;
+}
+
+.kfT input:first-child
+{
+	background-color: #724226;
+	margin-left: 100px;
+}
+
+.kfT input:last-child
+{
+	background-color: #e2651b;
+}
+
+/*银屑病健康讲堂*/
+.jt
+{
+	width: 980px;
+	height: 740px;
+	margin: 0 10px;
+}
+
+/*讲堂第二部分*/
+.jtS
+{
+	width:100%;
+	height: :645px;
+	display: flex;
+}
+.jtSL
+{
+	width:740px;
+	height: 645px;
+	display: inline-block;
+	/*display: flex;*/
+}
+/*讲堂第二部分第一行*/
+.jtS1
+{
+	width: 735px;
+	height: 309px;
+	margin-top: 20px;
+}
+
+
+/*第一行左边*/
+.jtS1left
+{
+	width: 360px;
+	height: 100%x;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+/*左边第一行*/
+.fx1
+{
+	width: 100%;
+	height: 35px;
+	background-color: #f1ece9;
+}
+
+.fx1 span
+{
+	line-height: 35px;
+}
+
+.fx1 span:first-child
+{
+	background-color: #724226;
+	display: inline-block;
+	width: 119px;
+	height: 100%;
+	font-size: 1.8rem;
+	color:white;
+	text-align: center;
+}
+
+.fx1 span:last-child
+{
+	float:right;
+	margin-right:10px;
+}
+
+/*左边第二行*/
+.fx2
+{
+	width: :100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.fx2 span
+{
+	padding:0 10px;
+}
+.fx2 span a
+{
+	color:#666;
+}
+.fx2 span:not(:first-child)
+{
+	border-left:1px solid brown;
+}
+
+/*左边第三行*/
+.fx3
+{
+	width:100%;
+	height: 112px;
+}
+
+.fx3>div:first-child
+{
+	width: 165px;
+	height: 100%;
+	display: inline-block;
+}
+
+.fx3>div:last-child
+{
+	width: 185px;
+	height: 100%;
+	display: inline-block;
+	color:#666;
+}
+.fx3>div:last-child div:first-child
+{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.fx3>div:last-child div:last-child
+{
+	font-size: 1.2rem;
+	color:gray;
+	line-height: 25px;
+}
+
+
+/*左边第四行*/
+.fx4
+{
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.fx4 ul
+{
+	margin-left: 15px;
+}
+
+
+.fx4 ul li
+{
+	list-style-type: circle;
+	line-height: 24px;
+	font-size: 1.4rem;
+}
+.fx4 ul li a span
+{
+	color: #666;
+}
+
+.fx4 ul li span:last-child
+{
+	float: right;
+}
+
+
+/*健康讲堂右边*/
+.jtS1right
+{
+	width: 198px;
+	height: 645px;
+	float:right;
+	margin-top: 20px;
+	margin-left: 20px;;
+}
+
+/*右边第一行*/
+.kfr1
+{
+	width: 100%;
+	height: 35px;
+}
+
+/*右边第二行*/
+.kfr2
+{
+	width: 100%;
+	height: 120px;
+	margin:30px 0;
+}
+
+.kfr2 div	span:nth-child(even)
+{
+	line-height: 29px;
+	font-size: 1.2rem;
+}
+
+.kfr2 img
+{
+	vertical-align: center;
+}
+/*公益 临床 领导*/
+.gll
+{
+	width: 100%;
+	height: 280px;
+	margin-top: 20px;
+}
+
+.gy
+{
+	width: 305px;
+	height: 100%;
+	display: inline-block;
+	margin-right: 10px;;
+
+}
+
+.gy1
+{
+	width: 100%;
+	height: 55px;
+	display: inline-block;
+	margin-left:5px;
+}
+
+.gy1 span:first-child
+{
+	font-size: 2rem;
+	color: brown;
+}
+.gy1 span:last-child
+{
+	color:gray;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+}
+
+/*公益事业第二部分*/
+.gy2
+{
+	width: 315px;
+	height: 225px;
+}
+
+.gy2a
+{	
+
+	width: 150px;
+	height: 95px;
+	display: inline-block;
+	padding-left:5px;
+}
+.gy2a img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.gy2a span
+{
+	display: inline-block;
+	width: 150px;
+	height: 25px;
+	color: white;
+	font-size: 1.3rem;
+	background-color: black;
+	opacity: 0.5;
+	position: relative;
+	top:-25px;
+	line-height: 2em;
+}
+
+/*医院环境*/
+.hj
+{
+	width: 100%;
+	height: 175px;
+}
+
+.hj1
+{
+	border-bottom: 1px solid lightgray;
+	width: 100%;
+	height: 31px;
+}
+
+.hj1 span
+{	
+	display: inline-block;
+	width: 105px;
+	height: 30px;
+	background-color: #724226;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.hj2
+{
+	height: 145px;
+	width: 100%;
+	display: flex;
+}
+
+.hj2 span
+{
+	width: 188px;
+	height: 132px;
+	margin-top:10px;
+	padding-right: 5px;
+}
+
+.hj2 span>img
+{
+	height:132px;
+	width: 188px;
+}
+
+/*底部*/
+footer
+{
+	width: 100%;
+	height: 410px;
+	background-color:#724226 ;
+	margin-top: 10px;
+}
+
+.foot
+{
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.ftF
+{
+	width: 100%;
+	height: 240px;
+}
+
+
+/*脚部第一行第一列*/
+.ftF1 
+{
+	width: 275px;
+	height: 165px;
+	/*display: inline-block;*/
+	float: left;
+	margin-top: 35px;
+	
+	/*border:1px solid white;*/
+}
+
+.ftF1 img
+{
+	margin-left:85px;
+
+}
+
+.ftF1a
+{
+	text-align: center;
+	margin-top: 15px;
+}
+.ftF1a span
+{
+	color: white;
+	text-align: center;
+}
+
+
+.ftF1a span:first-child
+{
+	font-size: 2.1rem;
+	font-weight: bolder;
+
+}
+
+.ftF1a span:last-child
+{
+	font-size: 0.9rem;
+	text-transform: uppercase ;
+}
+
+
+
+/*脚部第一行第二列*/
+.ftF2
+{
+	width: 630px;
+	/*border:1px solid white;*/
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+}
+
+.ftF2 div:not(:last-child)
+{
+	border-left: 1px dotted white;
+}
+
+.ftF2a
+{
+	width: 120px;
+	height: 150px;
+	margin: 50px 20px 0 10px;
+	display: inline-block;
+	text-align: center;
+	/*border:1px solid white;*/	
+}
+
+.ftF2a ul li 
+{
+	margin-top: 10px;
+}
+
+.ftF2a>ul>li>a
+{
+	color: white;
+}
+
+.ftF2a>ul>li:first-child
+{
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+
+/*脚部第二行*/
+
+.ftS
+{
+	width: 100%;
+	height: 145px;
+	position: relative;
+	top: 20px;
+	
+}
+
+.fts div:first-child
+{
+	margin-top: 10px;
+
+}
+
+.ftS div
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.ftS div span
+{
+	color: white;
+	font-size: 1.2rem;
+	
+}
